@@ -4171,17 +4171,13 @@
     "hv": "trì",
     "nghia": "cầm, giữ, nắm"
   },
-   "便": {
+  "便": {
     "hv": "tiện",
     "nghia": "thuận lợi, thuận tiện; ỉa, đái; phân, nước giải; liền, bèn, làm ngay"
   },
-   "衽": {
+  "衽": {
     "hv": "nhẫm",
     "nghia": "vạt áo; cái chiếu"
-  },
-   "盆": {
-    "hv": "bồn",
-    "nghia": "cái chậu sành"
   },
   "盆": {
     "hv": "bồn",
@@ -4203,7 +4199,6 @@
     "hv": "tư",
     "nghia": "đều, cùng"
   },
-
   "咫": {
     "hv": "chỉ",
     "nghia": "chỉ (đơn vị đo đời Chu, bằng 8 tấc)"
@@ -4276,12 +4271,12 @@
     "hv": "thâm, tẩm",
     "nghia": "ngâm, thấm (nước); dần dần"
   },
-   "座": {
+  "座": {
     "hv": "toà, toạ",
     "nghia": "chỗ ngồi"
   },
-   "羔": {
+  "羔": {
     "hv": "cao",
     "nghia": "con dê non"
-  },
+  }
 }
