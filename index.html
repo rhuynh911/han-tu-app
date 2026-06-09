@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>漢學 — Học Hán Tự</title>
+  <meta name="description" content="Ứng dụng học và kiểm tra chữ Hán phồn thể với Hán Việt">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&family=Noto+Sans+TC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="app-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-cn">漢學</span>
+      <span class="brand-vn">Hán Tự</span>
+    </div>
+    <nav class="main-nav">
+      <button class="nav-btn active" data-view="home">Trang chủ</button>
+      <button class="nav-btn" data-view="learn">Học</button>
+      <button class="nav-btn" data-view="test">Kiểm tra</button>
+      <button class="nav-btn" data-view="settings">Cài đặt</button>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="syncBtn" title="Đồng bộ Google Sheets">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="sync-status" id="syncStatus"></div>
+</header>
+
+<!-- ============ MAIN ============ -->
+<main class="app-main">
+
+  <!-- HOME VIEW -->
+  <section class="view active" id="view-home">
+    <div class="container">
+      <div class="hero">
+        <div class="hero-mark">朱印</div>
+        <h1 class="hero-title">
+          <span class="display-cn">學而時習之</span>
+          <span class="hero-sub">Học và luyện tập thường xuyên</span>
+        </h1>
+      </div>
+
+      <div class="dashboard-grid">
+        <div class="stat-card primary">
+          <div class="stat-label">Tổng số chữ</div>
+          <div class="stat-value" id="statTotal">—</div>
+          <div class="stat-sub">trong danh sách</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Đã thuộc</div>
+          <div class="stat-value" id="statLearned">—</div>
+          <div class="stat-sub" id="statLearnedPct">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Cần ôn</div>
+          <div class="stat-value" id="statReview">—</div>
+          <div class="stat-sub">điểm số thấp</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Hôm nay</div>
+          <div class="stat-value" id="statToday">—</div>
+          <div class="stat-sub">lượt kiểm tra</div>
+        </div>
+      </div>
+
+      <div class="quick-actions">
+        <h2 class="section-title">Bắt đầu nhanh</h2>
+        <div class="action-grid">
+          <button class="action-card" data-action="flashcard">
+            <div class="action-icon">📇</div>
+            <div class="action-title">Flashcard</div>
+            <div class="action-desc">Lật thẻ ôn lại chữ và Hán Việt</div>
+          </button>
+          <button class="action-card" data-action="mc-char-hv">
+            <div class="action-icon">字</div>
+            <div class="action-title">Chữ → Hán Việt</div>
+            <div class="action-desc">Trắc nghiệm chọn cách đọc</div>
+          </button>
+          <button class="action-card" data-action="mc-meaning-char">
+            <div class="action-icon">義</div>
+            <div class="action-title">Nghĩa → Chữ</div>
+            <div class="action-desc">Trắc nghiệm chọn chữ Hán</div>
+          </button>
+          <button class="action-card" data-action="fill-blank">
+            <div class="action-icon">□</div>
+            <div class="action-title">Điền chỗ trống</div>
+            <div class="action-desc">Điền chữ Hán vào câu</div>
+          </button>
+          <button class="action-card" data-action="arrange">
+            <div class="action-icon">序</div>
+            <div class="action-title">Sắp xếp chữ</div>
+            <div class="action-desc">Xếp chữ Hán thành câu</div>
+          </button>
+          <button class="action-card" data-action="reading">
+            <div class="action-icon">讀</div>
+            <div class="action-title">Đọc hiểu</div>
+            <div class="action-desc">Đoạn văn ngắn + câu hỏi</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARN VIEW -->
+  <section class="view" id="view-learn">
+    <div class="container">
+      <div class="view-header">
+        <h2 class="section-title">Danh sách chữ Hán</h2>
+        <div class="learn-controls">
+          <input type="search" id="searchInput" placeholder="Tìm chữ Hán, Hán Việt, hoặc nghĩa...">
+          <select id="filterSelect">
+            <option value="all">Tất cả</option>
+            <option value="new">Chưa học</option>
+            <option value="learning">Đang học</option>
+            <option value="learned">Đã thuộc</option>
+            <option value="needs-review">Cần ôn</option>
+          </select>
+        </div>
+      </div>
+      <div class="char-grid" id="charGrid">
+        <!-- Cards inserted by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TEST VIEW -->
+  <section class="view" id="view-test">
+    <div class="container">
+      <div class="test-modes">
+        <h2 class="section-title">Chọn bài kiểm tra</h2>
+        <div class="action-grid">
+          <button class="action-card" data-action="flashcard">
+            <div class="action-icon">📇</div>
+            <div class="action-title">Flashcard</div>
+            <div class="action-desc">Lật thẻ — xem chữ và đoán nghĩa</div>
+          </button>
+          <button class="action-card" data-action="mc-char-hv">
+            <div class="action-icon">字</div>
+            <div class="action-title">Chữ → Hán Việt</div>
+            <div class="action-desc">Cho chữ Hán, chọn cách đọc đúng</div>
+          </button>
+          <button class="action-card" data-action="mc-meaning-char">
+            <div class="action-icon">義</div>
+            <div class="action-title">Nghĩa → Chữ</div>
+            <div class="action-desc">Cho nghĩa Việt, chọn chữ Hán đúng</div>
+          </button>
+          <button class="action-card" data-action="mc-char-meaning">
+            <div class="action-icon">意</div>
+            <div class="action-title">Chữ → Nghĩa</div>
+            <div class="action-desc">Cho chữ Hán, chọn nghĩa đúng</div>
+          </button>
+          <button class="action-card" data-action="fill-blank">
+            <div class="action-icon">□</div>
+            <div class="action-title">Điền chỗ trống</div>
+            <div class="action-desc">Điền chữ Hán vào câu trống</div>
+          </button>
+          <button class="action-card" data-action="arrange">
+            <div class="action-icon">序</div>
+            <div class="action-title">Sắp xếp chữ</div>
+            <div class="action-desc">Sắp xếp chữ Hán thành câu</div>
+          </button>
+          <button class="action-card" data-action="reading">
+            <div class="action-icon">讀</div>
+            <div class="action-title">Đọc hiểu</div>
+            <div class="action-desc">Đoạn văn ngắn + câu hỏi trắc nghiệm</div>
+          </button>
+          <button class="action-card" data-action="typing">
+            <div class="action-icon">⌨</div>
+            <div class="action-title">Gõ Hán Việt</div>
+            <div class="action-desc">Gõ Hán Việt của chữ Hán hiện trên màn hình</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Test session view (hidden until test starts) -->
+      <div class="test-session" id="testSession" style="display:none;">
+        <div class="test-header">
+          <button class="btn-link" id="exitTest">← Thoát</button>
+          <div class="test-progress">
+            <span id="testProgress">0 / 0</span>
+            <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+          </div>
+          <div class="test-score">
+            <span class="score-correct" id="scoreCorrect">0</span>
+            <span class="score-sep">/</span>
+            <span class="score-wrong" id="scoreWrong">0</span>
+          </div>
+        </div>
+        <div class="test-body" id="testBody">
+          <!-- Test content rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETTINGS VIEW -->
+  <section class="view" id="view-settings">
+    <div class="container">
+      <h2 class="section-title">Cài đặt</h2>
+
+      <div class="setting-section">
+        <h3>Danh sách chữ Hán</h3>
+        <p class="setting-desc">
+          Upload file <code>ds_cac_chu.txt</code> để cập nhật danh sách chữ học.
+          Mỗi chữ Hán sẽ được tra cứu Hán Việt và nghĩa tự động.
+        </p>
+        <div class="upload-area" id="uploadArea">
+          <input type="file" id="fileInput" accept=".txt" hidden>
+          <button class="btn btn-primary" id="uploadBtn">Chọn file</button>
+          <span class="upload-info" id="uploadInfo">Chưa có file</span>
+        </div>
+        <div class="upload-preview" id="uploadPreview" style="display:none;"></div>
+      </div>
+
+      <div class="setting-section">
+        <h3>Đồng bộ Google Sheets</h3>
+        <p class="setting-desc">
+          Dán URL Web App của Google Apps Script vào đây để lưu tiến độ vào Google Sheets.
+          Xem hướng dẫn cài đặt trong file <code>docs/SETUP.md</code>.
+        </p>
+        <div class="input-row">
+          <input type="url" id="sheetsUrl" placeholder="https://script.google.com/macros/s/.../exec">
+          <button class="btn btn-primary" id="saveSheetsUrl">Lưu</button>
+        </div>
+        <div class="input-row">
+          <button class="btn btn-secondary" id="testSyncBtn">Kiểm tra kết nối</button>
+          <button class="btn btn-secondary" id="forceSyncBtn">Đồng bộ ngay</button>
+        </div>
+      </div>
+
+      <div class="setting-section">
+        <h3>Quản lý dữ liệu</h3>
+        <p class="setting-desc">Xuất dữ liệu để sao lưu hoặc xóa hết để bắt đầu lại.</p>
+        <div class="input-row">
+          <button class="btn btn-secondary" id="exportBtn">Xuất JSON</button>
+          <button class="btn btn-danger" id="resetBtn">Xóa hết tiến độ</button>
+        </div>
+      </div>
+
+      <div class="setting-section">
+        <h3>Về ứng dụng</h3>
+        <p class="setting-desc">
+          Phiên bản 1.0 — Học Hán tự phồn thể với Hán Việt.<br>
+          Mã nguồn mở, lưu trữ trên GitHub Pages, đồng bộ qua Google Apps Script.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ MODALS ============ -->
+<!-- Character detail modal -->
+<div class="modal" id="charModal" style="display:none;">
+  <div class="modal-overlay" data-close="charModal"></div>
+  <div class="modal-content">
+    <button class="modal-close" data-close="charModal">×</button>
+    <div class="char-detail" id="charDetail"></div>
+  </div>
+</div>
+
+<!-- Toast notifications -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="js/dictionary-data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/tests.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

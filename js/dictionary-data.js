@@ -1,0 +1,4164 @@
+// Auto-generated Hán-Việt dictionary
+// Format: char -> { hv: "Han-Viet reading", nghia: "Vietnamese meaning" }
+window.HAN_VIET_DICT = {
+  "一": {
+    "hv": "nhất",
+    "nghia": "một"
+  },
+  "十": {
+    "hv": "thập",
+    "nghia": "mười"
+  },
+  "乃": {
+    "hv": "nãi",
+    "nghia": "bèn, là"
+  },
+  "入": {
+    "hv": "nhập",
+    "nghia": "vào"
+  },
+  "卜": {
+    "hv": "bốc",
+    "nghia": "bói toán"
+  },
+  "人": {
+    "hv": "nhân",
+    "nghia": "người"
+  },
+  "乂": {
+    "hv": "nghệ",
+    "nghia": "cắt cỏ, trị yên"
+  },
+  "九": {
+    "hv": "cửu",
+    "nghia": "chín (số 9)"
+  },
+  "乙": {
+    "hv": "ất",
+    "nghia": "thứ hai trong thiên can"
+  },
+  "七": {
+    "hv": "thất",
+    "nghia": "bảy (số 7)"
+  },
+  "八": {
+    "hv": "bát",
+    "nghia": "tám (số 8)"
+  },
+  "二": {
+    "hv": "nhị",
+    "nghia": "hai (số 2)"
+  },
+  "匕": {
+    "hv": "chuỷ",
+    "nghia": "cái thìa, dao găm"
+  },
+  "几": {
+    "hv": "kỷ",
+    "nghia": "cái ghế dài, bàn nhỏ"
+  },
+  "丁": {
+    "hv": "đinh",
+    "nghia": "thứ tư thiên can, đàn ông"
+  },
+  "刁": {
+    "hv": "điêu",
+    "nghia": "ranh mãnh, gian xảo"
+  },
+  "刀": {
+    "hv": "đao",
+    "nghia": "con dao"
+  },
+  "力": {
+    "hv": "lực",
+    "nghia": "sức"
+  },
+  "又": {
+    "hv": "hựu",
+    "nghia": "lại, lần nữa"
+  },
+  "三": {
+    "hv": "tam",
+    "nghia": "ba (số 3)"
+  },
+  "上": {
+    "hv": "thượng",
+    "nghia": "trên"
+  },
+  "勺": {
+    "hv": "chước",
+    "nghia": "cái muôi múc"
+  },
+  "女": {
+    "hv": "nữ",
+    "nghia": "đàn bà, con gái"
+  },
+  "巾": {
+    "hv": "cân",
+    "nghia": "khăn"
+  },
+  "之": {
+    "hv": "chi",
+    "nghia": "của, đi đến"
+  },
+  "大": {
+    "hv": "đại",
+    "nghia": "lớn"
+  },
+  "口": {
+    "hv": "khẩu",
+    "nghia": "miệng"
+  },
+  "凡": {
+    "hv": "phàm",
+    "nghia": "tất cả, phàm thường"
+  },
+  "山": {
+    "hv": "sơn",
+    "nghia": "núi"
+  },
+  "寸": {
+    "hv": "thốn",
+    "nghia": "tấc (đơn vị)"
+  },
+  "丈": {
+    "hv": "trượng",
+    "nghia": "trượng (đơn vị), đàn ông"
+  },
+  "弓": {
+    "hv": "cung",
+    "nghia": "cây cung"
+  },
+  "刃": {
+    "hv": "nhận",
+    "nghia": "lưỡi dao"
+  },
+  "小": {
+    "hv": "tiểu",
+    "nghia": "nhỏ"
+  },
+  "亡": {
+    "hv": "vong",
+    "nghia": "mất, chết"
+  },
+  "及": {
+    "hv": "cập",
+    "nghia": "đến, kịp"
+  },
+  "幺": {
+    "hv": "yêu",
+    "nghia": "nhỏ, út"
+  },
+  "叉": {
+    "hv": "xoa",
+    "nghia": "cái nĩa, chĩa"
+  },
+  "干": {
+    "hv": "can",
+    "nghia": "khô, cái khiên"
+  },
+  "工": {
+    "hv": "công",
+    "nghia": "việc, thợ"
+  },
+  "丸": {
+    "hv": "hoàn",
+    "nghia": "viên tròn"
+  },
+  "夕": {
+    "hv": "tịch",
+    "nghia": "buổi chiều, tối"
+  },
+  "士": {
+    "hv": "sĩ",
+    "nghia": "kẻ sĩ, học trò"
+  },
+  "己": {
+    "hv": "kỷ",
+    "nghia": "mình, bản thân"
+  },
+  "下": {
+    "hv": "hạ",
+    "nghia": "dưới"
+  },
+  "尸": {
+    "hv": "thi",
+    "nghia": "thây chết"
+  },
+  "千": {
+    "hv": "thiên",
+    "nghia": "nghìn"
+  },
+  "于": {
+    "hv": "vu",
+    "nghia": "ở, tại"
+  },
+  "久": {
+    "hv": "cửu",
+    "nghia": "lâu"
+  },
+  "孑": {
+    "hv": "kiết",
+    "nghia": "trơ trọi, một mình"
+  },
+  "巳": {
+    "hv": "tỵ",
+    "nghia": "chi Tỵ (rắn)"
+  },
+  "才": {
+    "hv": "tài",
+    "nghia": "tài năng, vừa mới"
+  },
+  "土": {
+    "hv": "thổ",
+    "nghia": "đất"
+  },
+  "也": {
+    "hv": "dã",
+    "nghia": "cũng, vậy"
+  },
+  "川": {
+    "hv": "xuyên",
+    "nghia": "sông, suối"
+  },
+  "兀": {
+    "hv": "ngột",
+    "nghia": "trơ trọi, cao chót vót"
+  },
+  "子": {
+    "hv": "tử",
+    "nghia": "con, người"
+  },
+  "六": {
+    "hv": "lục",
+    "nghia": "sáu (số 6)"
+  },
+  "什": {
+    "hv": "thập",
+    "nghia": "mười, các thứ"
+  },
+  "牛": {
+    "hv": "ngưu",
+    "nghia": "trâu, bò"
+  },
+  "牙": {
+    "hv": "nha",
+    "nghia": "răng"
+  },
+  "尺": {
+    "hv": "xích",
+    "nghia": "thước"
+  },
+  "犬": {
+    "hv": "khuyển",
+    "nghia": "chó"
+  },
+  "毋": {
+    "hv": "vô",
+    "nghia": "không, chớ"
+  },
+  "戶": {
+    "hv": "hộ",
+    "nghia": "cửa, nhà"
+  },
+  "云": {
+    "hv": "vân",
+    "nghia": "rằng, nói"
+  },
+  "爿": {
+    "hv": "tường",
+    "nghia": "miếng gỗ chẻ"
+  },
+  "日": {
+    "hv": "nhật",
+    "nghia": "ngày, mặt trời"
+  },
+  "木": {
+    "hv": "mộc",
+    "nghia": "cây, gỗ"
+  },
+  "公": {
+    "hv": "công",
+    "nghia": "ông, chung, công"
+  },
+  "文": {
+    "hv": "văn",
+    "nghia": "văn chương, chữ"
+  },
+  "欠": {
+    "hv": "khiếm",
+    "nghia": "thiếu, nợ"
+  },
+  "升": {
+    "hv": "thăng",
+    "nghia": "lên, đấu (đơn vị)"
+  },
+  "井": {
+    "hv": "tỉnh",
+    "nghia": "giếng"
+  },
+  "父": {
+    "hv": "phụ",
+    "nghia": "cha"
+  },
+  "火": {
+    "hv": "hoả",
+    "nghia": "lửa"
+  },
+  "王": {
+    "hv": "vương",
+    "nghia": "vua"
+  },
+  "月": {
+    "hv": "nguyệt",
+    "nghia": "trăng, tháng"
+  },
+  "尹": {
+    "hv": "doãn",
+    "nghia": "chính, làm chủ"
+  },
+  "壬": {
+    "hv": "nhâm",
+    "nghia": "thứ chín thiên can"
+  },
+  "切": {
+    "hv": "thiết",
+    "nghia": "cắt, cấp thiết"
+  },
+  "孔": {
+    "hv": "khổng",
+    "nghia": "lỗ, rất"
+  },
+  "五": {
+    "hv": "ngũ",
+    "nghia": "năm (số 5)"
+  },
+  "少": {
+    "hv": "thiểu",
+    "nghia": "ít, trẻ"
+  },
+  "夫": {
+    "hv": "phu",
+    "nghia": "chồng, đàn ông"
+  },
+  "中": {
+    "hv": "trung",
+    "nghia": "giữa, trong"
+  },
+  "亢": {
+    "hv": "kháng",
+    "nghia": "cao, chống lại"
+  },
+  "瓦": {
+    "hv": "ngoã",
+    "nghia": "ngói, sành"
+  },
+  "方": {
+    "hv": "phương",
+    "nghia": "vuông, phương hướng"
+  },
+  "仄": {
+    "hv": "trắc",
+    "nghia": "nghiêng, hẹp"
+  },
+  "不": {
+    "hv": "bất",
+    "nghia": "không, chẳng"
+  },
+  "心": {
+    "hv": "tâm",
+    "nghia": "tim, lòng"
+  },
+  "丐": {
+    "hv": "cái",
+    "nghia": "ăn xin"
+  },
+  "斤": {
+    "hv": "cân",
+    "nghia": "cái rìu, cân (đơn vị)"
+  },
+  "止": {
+    "hv": "chỉ",
+    "nghia": "dừng, đến"
+  },
+  "弔": {
+    "hv": "điếu",
+    "nghia": "viếng, chia buồn"
+  },
+  "手": {
+    "hv": "thủ",
+    "nghia": "tay"
+  },
+  "內": {
+    "hv": "nội",
+    "nghia": "trong"
+  },
+  "氏": {
+    "hv": "thị",
+    "nghia": "họ"
+  },
+  "乏": {
+    "hv": "phạp",
+    "nghia": "thiếu, hết"
+  },
+  "水": {
+    "hv": "thuỷ",
+    "nghia": "nước"
+  },
+  "太": {
+    "hv": "thái",
+    "nghia": "rất, lớn"
+  },
+  "分": {
+    "hv": "phân",
+    "nghia": "chia, phần"
+  },
+  "斗": {
+    "hv": "đẩu",
+    "nghia": "đấu (đơn vị), sao Bắc Đẩu"
+  },
+  "片": {
+    "hv": "phiến",
+    "nghia": "miếng, mảnh"
+  },
+  "尤": {
+    "hv": "vưu",
+    "nghia": "đặc biệt, càng"
+  },
+  "凶": {
+    "hv": "hung",
+    "nghia": "dữ, hung ác"
+  },
+  "勾": {
+    "hv": "câu",
+    "nghia": "móc, gạch bỏ"
+  },
+  "勻": {
+    "hv": "quân",
+    "nghia": "đều, đồng đều"
+  },
+  "友": {
+    "hv": "hữu",
+    "nghia": "bạn"
+  },
+  "夭": {
+    "hv": "yểu",
+    "nghia": "chết non, tươi tốt"
+  },
+  "今": {
+    "hv": "kim",
+    "nghia": "nay, hiện tại"
+  },
+  "兮": {
+    "hv": "hề",
+    "nghia": "thay, vậy (trợ từ)"
+  },
+  "刈": {
+    "hv": "ngải",
+    "nghia": "cắt, gặt"
+  },
+  "仍": {
+    "hv": "nhưng",
+    "nghia": "vẫn, theo cũ"
+  },
+  "毛": {
+    "hv": "mao",
+    "nghia": "lông"
+  },
+  "以": {
+    "hv": "dĩ",
+    "nghia": "lấy, bằng"
+  },
+  "曰": {
+    "hv": "viết",
+    "nghia": "nói rằng"
+  },
+  "互": {
+    "hv": "hỗ",
+    "nghia": "lẫn nhau"
+  },
+  "比": {
+    "hv": "tỷ",
+    "nghia": "so sánh"
+  },
+  "勿": {
+    "hv": "vật",
+    "nghia": "chớ, đừng"
+  },
+  "支": {
+    "hv": "chi",
+    "nghia": "chống, chi nhánh"
+  },
+  "仇": {
+    "hv": "cừu",
+    "nghia": "thù, oán"
+  },
+  "爪": {
+    "hv": "trảo",
+    "nghia": "móng, vuốt"
+  },
+  "爻": {
+    "hv": "hào",
+    "nghia": "vạch quẻ Dịch"
+  },
+  "化": {
+    "hv": "hoá",
+    "nghia": "biến hoá"
+  },
+  "引": {
+    "hv": "dẫn",
+    "nghia": "kéo, dẫn"
+  },
+  "反": {
+    "hv": "phản",
+    "nghia": "ngược, trở lại"
+  },
+  "予": {
+    "hv": "dữ",
+    "nghia": "cho, ta"
+  },
+  "元": {
+    "hv": "nguyên",
+    "nghia": "đầu, gốc"
+  },
+  "仁": {
+    "hv": "nhân",
+    "nghia": "nhân từ, hạt"
+  },
+  "卅": {
+    "hv": "tạp",
+    "nghia": "ba mươi"
+  },
+  "丹": {
+    "hv": "đan",
+    "nghia": "đỏ, son"
+  },
+  "冗": {
+    "hv": "nhũng",
+    "nghia": "thừa, vô dụng"
+  },
+  "巨": {
+    "hv": "cự",
+    "nghia": "lớn"
+  },
+  "丑": {
+    "hv": "sửu",
+    "nghia": "chi Sửu (trâu)"
+  },
+  "屯": {
+    "hv": "đồn",
+    "nghia": "đóng quân, làng"
+  },
+  "天": {
+    "hv": "thiên",
+    "nghia": "trời"
+  },
+  "戈": {
+    "hv": "qua",
+    "nghia": "cái mác"
+  },
+  "布": {
+    "hv": "bố",
+    "nghia": "vải, công bố"
+  },
+  "冬": {
+    "hv": "đông",
+    "nghia": "mùa đông"
+  },
+  "世": {
+    "hv": "thế",
+    "nghia": "đời"
+  },
+  "央": {
+    "hv": "ương",
+    "nghia": "giữa, trung tâm"
+  },
+  "弗": {
+    "hv": "phất",
+    "nghia": "không, chẳng"
+  },
+  "包": {
+    "hv": "bao",
+    "nghia": "bao gói, bọc"
+  },
+  "去": {
+    "hv": "khứ",
+    "nghia": "đi, qua"
+  },
+  "乎": {
+    "hv": "hồ",
+    "nghia": "ư? chăng?"
+  },
+  "邙": {
+    "hv": "mang",
+    "nghia": "núi Mang (địa danh)"
+  },
+  "甘": {
+    "hv": "cam",
+    "nghia": "ngọt, cam chịu"
+  },
+  "奴": {
+    "hv": "nô",
+    "nghia": "đầy tớ, nô lệ"
+  },
+  "仙": {
+    "hv": "tiên",
+    "nghia": "tiên (thần tiên)"
+  },
+  "民": {
+    "hv": "dân",
+    "nghia": "dân"
+  },
+  "由": {
+    "hv": "do",
+    "nghia": "bởi, từ"
+  },
+  "丙": {
+    "hv": "bính",
+    "nghia": "thứ ba thiên can"
+  },
+  "刊": {
+    "hv": "san",
+    "nghia": "khắc, in"
+  },
+  "田": {
+    "hv": "điền",
+    "nghia": "ruộng"
+  },
+  "右": {
+    "hv": "hữu",
+    "nghia": "bên phải"
+  },
+  "台": {
+    "hv": "đài",
+    "nghia": "đài, ngài"
+  },
+  "氐": {
+    "hv": "đê",
+    "nghia": "thấp, đến"
+  },
+  "他": {
+    "hv": "tha",
+    "nghia": "khác, người khác"
+  },
+  "本": {
+    "hv": "bản",
+    "nghia": "gốc, quyển"
+  },
+  "功": {
+    "hv": "công",
+    "nghia": "công lao"
+  },
+  "印": {
+    "hv": "ấn",
+    "nghia": "in, dấu ấn"
+  },
+  "且": {
+    "hv": "thả",
+    "nghia": "vả lại, hãy"
+  },
+  "矛": {
+    "hv": "mâu",
+    "nghia": "cái giáo"
+  },
+  "立": {
+    "hv": "lập",
+    "nghia": "đứng, lập"
+  },
+  "幼": {
+    "hv": "ấu",
+    "nghia": "nhỏ, trẻ"
+  },
+  "加": {
+    "hv": "gia",
+    "nghia": "thêm vào"
+  },
+  "可": {
+    "hv": "khả",
+    "nghia": "có thể"
+  },
+  "四": {
+    "hv": "tứ",
+    "nghia": "bốn (số 4)"
+  },
+  "白": {
+    "hv": "bạch",
+    "nghia": "trắng"
+  },
+  "石": {
+    "hv": "thạch",
+    "nghia": "đá"
+  },
+  "左": {
+    "hv": "tả",
+    "nghia": "bên trái"
+  },
+  "平": {
+    "hv": "bình",
+    "nghia": "bằng, yên"
+  },
+  "占": {
+    "hv": "chiêm",
+    "nghia": "bói, chiếm"
+  },
+  "玉": {
+    "hv": "ngọc",
+    "nghia": "ngọc"
+  },
+  "市": {
+    "hv": "thị",
+    "nghia": "chợ, thành phố"
+  },
+  "丕": {
+    "hv": "phi",
+    "nghia": "lớn"
+  },
+  "出": {
+    "hv": "xuất",
+    "nghia": "ra"
+  },
+  "打": {
+    "hv": "đả",
+    "nghia": "đánh"
+  },
+  "矢": {
+    "hv": "thỉ",
+    "nghia": "mũi tên"
+  },
+  "卯": {
+    "hv": "mão",
+    "nghia": "chi Mão (thỏ)"
+  },
+  "申": {
+    "hv": "thân",
+    "nghia": "chi Thân (khỉ), trình bày"
+  },
+  "半": {
+    "hv": "bán",
+    "nghia": "nửa"
+  },
+  "冊": {
+    "hv": "sách",
+    "nghia": "quyển sách"
+  },
+  "汁": {
+    "hv": "trấp",
+    "nghia": "nước, dịch"
+  },
+  "仕": {
+    "hv": "sĩ",
+    "nghia": "làm quan"
+  },
+  "凸": {
+    "hv": "đột",
+    "nghia": "lồi"
+  },
+  "叱": {
+    "hv": "sất",
+    "nghia": "quát mắng"
+  },
+  "孕": {
+    "hv": "dựng",
+    "nghia": "có thai"
+  },
+  "令": {
+    "hv": "lệnh",
+    "nghia": "mệnh lệnh"
+  },
+  "外": {
+    "hv": "ngoại",
+    "nghia": "ngoài"
+  },
+  "句": {
+    "hv": "cú",
+    "nghia": "câu"
+  },
+  "司": {
+    "hv": "ty",
+    "nghia": "trông coi, cơ quan"
+  },
+  "永": {
+    "hv": "vĩnh",
+    "nghia": "mãi, dài"
+  },
+  "氹": {
+    "hv": "đường",
+    "nghia": "vũng nước"
+  },
+  "弁": {
+    "hv": "biện",
+    "nghia": "mũ, võ quan"
+  },
+  "示": {
+    "hv": "thị",
+    "nghia": "chỉ cho thấy"
+  },
+  "失": {
+    "hv": "thất",
+    "nghia": "mất"
+  },
+  "母": {
+    "hv": "mẫu",
+    "nghia": "mẹ"
+  },
+  "尼": {
+    "hv": "ni",
+    "nghia": "nữ tu, ni cô"
+  },
+  "古": {
+    "hv": "cổ",
+    "nghia": "xưa"
+  },
+  "戊": {
+    "hv": "mậu",
+    "nghia": "thứ năm thiên can"
+  },
+  "正": {
+    "hv": "chính",
+    "nghia": "chính, đúng"
+  },
+  "召": {
+    "hv": "triệu",
+    "nghia": "gọi, mời"
+  },
+  "生": {
+    "hv": "sinh",
+    "nghia": "sinh, sống"
+  },
+  "穴": {
+    "hv": "huyệt",
+    "nghia": "lỗ, hang"
+  },
+  "目": {
+    "hv": "mục",
+    "nghia": "mắt, mục"
+  },
+  "主": {
+    "hv": "chủ",
+    "nghia": "chủ, chính"
+  },
+  "叩": {
+    "hv": "khấu",
+    "nghia": "gõ, lạy"
+  },
+  "用": {
+    "hv": "dụng",
+    "nghia": "dùng"
+  },
+  "旦": {
+    "hv": "đán",
+    "nghia": "buổi sáng"
+  },
+  "瓜": {
+    "hv": "qua",
+    "nghia": "dưa"
+  },
+  "艾": {
+    "hv": "ngải",
+    "nghia": "cây ngải"
+  },
+  "叫": {
+    "hv": "khiếu",
+    "nghia": "kêu, gọi"
+  },
+  "巧": {
+    "hv": "xảo",
+    "nghia": "khéo léo"
+  },
+  "代": {
+    "hv": "đại",
+    "nghia": "thay, đời"
+  },
+  "必": {
+    "hv": "tất",
+    "nghia": "ắt, phải"
+  },
+  "甲": {
+    "hv": "giáp",
+    "nghia": "thứ nhất thiên can, áo giáp"
+  },
+  "阡": {
+    "hv": "thiên",
+    "nghia": "bờ ruộng, đường nhỏ"
+  },
+  "北": {
+    "hv": "bắc",
+    "nghia": "phương bắc"
+  },
+  "仔": {
+    "hv": "tử",
+    "nghia": "con, nhỏ"
+  },
+  "叮": {
+    "hv": "đinh",
+    "nghia": "dặn dò"
+  },
+  "囚": {
+    "hv": "tù",
+    "nghia": "tù, giam"
+  },
+  "斥": {
+    "hv": "xích",
+    "nghia": "đuổi, chê trách"
+  },
+  "兄": {
+    "hv": "huynh",
+    "nghia": "anh"
+  },
+  "乍": {
+    "hv": "sạ",
+    "nghia": "chợt, mới"
+  },
+  "皮": {
+    "hv": "bì",
+    "nghia": "da"
+  },
+  "叶": {
+    "hv": "diệp",
+    "nghia": "lá (giản thể)"
+  },
+  "史": {
+    "hv": "sử",
+    "nghia": "lịch sử, sử"
+  },
+  "未": {
+    "hv": "vị",
+    "nghia": "chưa, chi Mùi"
+  },
+  "玄": {
+    "hv": "huyền",
+    "nghia": "đen, huyền diệu"
+  },
+  "刑": {
+    "hv": "hình",
+    "nghia": "hình phạt"
+  },
+  "似": {
+    "hv": "tự",
+    "nghia": "giống như"
+  },
+  "牝": {
+    "hv": "tẫn",
+    "nghia": "con cái (động vật)"
+  },
+  "伏": {
+    "hv": "phục",
+    "nghia": "nấp, phục"
+  },
+  "次": {
+    "hv": "thứ",
+    "nghia": "thứ tự, lần"
+  },
+  "聿": {
+    "hv": "duật",
+    "nghia": "cây bút, bèn"
+  },
+  "有": {
+    "hv": "hữu",
+    "nghia": "có"
+  },
+  "合": {
+    "hv": "hợp",
+    "nghia": "hợp, đóng"
+  },
+  "羊": {
+    "hv": "dương",
+    "nghia": "dê"
+  },
+  "匡": {
+    "hv": "khuông",
+    "nghia": "sửa, giúp"
+  },
+  "夙": {
+    "hv": "túc",
+    "nghia": "sớm"
+  },
+  "丟": {
+    "hv": "đâu",
+    "nghia": "vứt, mất"
+  },
+  "舌": {
+    "hv": "thiệt",
+    "nghia": "lưỡi"
+  },
+  "那": {
+    "hv": "na",
+    "nghia": "kia, đó"
+  },
+  "多": {
+    "hv": "đa",
+    "nghia": "nhiều"
+  },
+  "旨": {
+    "hv": "chỉ",
+    "nghia": "ý chỉ, ngon"
+  },
+  "阪": {
+    "hv": "phản",
+    "nghia": "sườn dốc"
+  },
+  "同": {
+    "hv": "đồng",
+    "nghia": "cùng, giống"
+  },
+  "廷": {
+    "hv": "đình",
+    "nghia": "triều đình"
+  },
+  "池": {
+    "hv": "trì",
+    "nghia": "ao"
+  },
+  "吃": {
+    "hv": "ngật",
+    "nghia": "ăn"
+  },
+  "亙": {
+    "hv": "cắng",
+    "nghia": "kéo dài, suốt"
+  },
+  "宅": {
+    "hv": "trạch",
+    "nghia": "nhà ở"
+  },
+  "老": {
+    "hv": "lão",
+    "nghia": "già"
+  },
+  "伐": {
+    "hv": "phạt",
+    "nghia": "chặt, đánh"
+  },
+  "朽": {
+    "hv": "hủ",
+    "nghia": "mục nát"
+  },
+  "年": {
+    "hv": "niên",
+    "nghia": "năm"
+  },
+  "向": {
+    "hv": "hướng",
+    "nghia": "hướng về"
+  },
+  "屹": {
+    "hv": "ngật",
+    "nghia": "đứng sừng sững"
+  },
+  "再": {
+    "hv": "tái",
+    "nghia": "lại, hai lần"
+  },
+  "糸": {
+    "hv": "mịch",
+    "nghia": "sợi tơ nhỏ"
+  },
+  "宇": {
+    "hv": "vũ",
+    "nghia": "vũ trụ, mái nhà"
+  },
+  "江": {
+    "hv": "giang",
+    "nghia": "sông"
+  },
+  "迂": {
+    "hv": "vu",
+    "nghia": "vòng vèo, viển vông"
+  },
+  "共": {
+    "hv": "cộng",
+    "nghia": "cùng, chung"
+  },
+  "而": {
+    "hv": "nhi",
+    "nghia": "mà, và"
+  },
+  "芋": {
+    "hv": "vu",
+    "nghia": "khoai môn"
+  },
+  "舟": {
+    "hv": "chu",
+    "nghia": "thuyền"
+  },
+  "汜": {
+    "hv": "tỵ",
+    "nghia": "nhánh sông"
+  },
+  "朱": {
+    "hv": "chu",
+    "nghia": "đỏ son"
+  },
+  "行": {
+    "hv": "hành",
+    "nghia": "đi, hành động"
+  },
+  "至": {
+    "hv": "chí",
+    "nghia": "đến, rất"
+  },
+  "艮": {
+    "hv": "cấn",
+    "nghia": "quẻ Cấn (núi)"
+  },
+  "臣": {
+    "hv": "thần",
+    "nghia": "bề tôi"
+  },
+  "好": {
+    "hv": "hảo",
+    "nghia": "tốt, đẹp"
+  },
+  "成": {
+    "hv": "thành",
+    "nghia": "thành, nên"
+  },
+  "光": {
+    "hv": "quang",
+    "nghia": "ánh sáng"
+  },
+  "西": {
+    "hv": "tây",
+    "nghia": "phương tây"
+  },
+  "如": {
+    "hv": "như",
+    "nghia": "như, bằng"
+  },
+  "曲": {
+    "hv": "khúc",
+    "nghia": "cong, khúc nhạc"
+  },
+  "列": {
+    "hv": "liệt",
+    "nghia": "hàng, bày"
+  },
+  "延": {
+    "hv": "diên",
+    "nghia": "kéo dài"
+  },
+  "企": {
+    "hv": "khí",
+    "nghia": "kiễng chân, mong"
+  },
+  "全": {
+    "hv": "toàn",
+    "nghia": "trọn vẹn"
+  },
+  "自": {
+    "hv": "tự",
+    "nghia": "tự, từ"
+  },
+  "吸": {
+    "hv": "hấp",
+    "nghia": "hút, hít"
+  },
+  "米": {
+    "hv": "mễ",
+    "nghia": "gạo"
+  },
+  "忙": {
+    "hv": "mang",
+    "nghia": "bận, vội"
+  },
+  "劣": {
+    "hv": "liệt",
+    "nghia": "kém"
+  },
+  "仰": {
+    "hv": "ngưỡng",
+    "nghia": "ngước, ngưỡng mộ"
+  },
+  "屼": {
+    "hv": "ngột",
+    "nghia": "núi trơ trọi"
+  },
+  "匠": {
+    "hv": "tượng",
+    "nghia": "thợ"
+  },
+  "汎": {
+    "hv": "phiếm",
+    "nghia": "trôi nổi, rộng khắp"
+  },
+  "安": {
+    "hv": "an",
+    "nghia": "yên ổn"
+  },
+  "灰": {
+    "hv": "khôi",
+    "nghia": "tro"
+  },
+  "臼": {
+    "hv": "cữu",
+    "nghia": "cái cối"
+  },
+  "先": {
+    "hv": "tiên",
+    "nghia": "trước"
+  },
+  "尖": {
+    "hv": "tiêm",
+    "nghia": "nhọn"
+  },
+  "任": {
+    "hv": "nhậm",
+    "nghia": "đảm nhận, mặc"
+  },
+  "汗": {
+    "hv": "hãn",
+    "nghia": "mồ hôi"
+  },
+  "并": {
+    "hv": "tinh",
+    "nghia": "gộp, cùng"
+  },
+  "汲": {
+    "hv": "cấp",
+    "nghia": "múc nước"
+  },
+  "芝": {
+    "hv": "chi",
+    "nghia": "cỏ chi, nấm linh chi"
+  },
+  "迄": {
+    "hv": "ngật",
+    "nghia": "đến, tới"
+  },
+  "冰": {
+    "hv": "băng",
+    "nghia": "băng, đá lạnh"
+  },
+  "考": {
+    "hv": "khảo",
+    "nghia": "khảo cứu, cha mất"
+  },
+  "戎": {
+    "hv": "nhung",
+    "nghia": "binh khí, người Nhung"
+  },
+  "名": {
+    "hv": "danh",
+    "nghia": "tên, danh tiếng"
+  },
+  "在": {
+    "hv": "tại",
+    "nghia": "ở, tại"
+  },
+  "仲": {
+    "hv": "trọng",
+    "nghia": "anh thứ, giữa"
+  },
+  "迅": {
+    "hv": "tấn",
+    "nghia": "nhanh"
+  },
+  "收": {
+    "hv": "thu",
+    "nghia": "thu, gặt"
+  },
+  "亦": {
+    "hv": "diệc",
+    "nghia": "cũng"
+  },
+  "州": {
+    "hv": "châu",
+    "nghia": "châu, bãi"
+  },
+  "芨": {
+    "hv": "cập",
+    "nghia": "cỏ cập"
+  },
+  "邪": {
+    "hv": "tà",
+    "nghia": "tà, gian"
+  },
+  "芎": {
+    "hv": "khung",
+    "nghia": "cây xuyên khung"
+  },
+  "吉": {
+    "hv": "cát",
+    "nghia": "tốt lành"
+  },
+  "早": {
+    "hv": "tảo",
+    "nghia": "sớm"
+  },
+  "汝": {
+    "hv": "nhữ",
+    "nghia": "mày, ngươi"
+  },
+  "舛": {
+    "hv": "suyễn",
+    "nghia": "trái ngược, sai"
+  },
+  "伍": {
+    "hv": "ngũ",
+    "nghia": "đội ngũ, hàng ngũ"
+  },
+  "后": {
+    "hv": "hậu",
+    "nghia": "hoàng hậu, sau"
+  },
+  "巡": {
+    "hv": "tuần",
+    "nghia": "đi tuần"
+  },
+  "戍": {
+    "hv": "thú",
+    "nghia": "đóng giữ biên cương"
+  },
+  "丞": {
+    "hv": "thừa",
+    "nghia": "phụ tá, thừa tướng"
+  },
+  "祁": {
+    "hv": "kỳ",
+    "nghia": "lớn, đông"
+  },
+  "吐": {
+    "hv": "thổ",
+    "nghia": "nhổ, nói ra"
+  },
+  "防": {
+    "hv": "phòng",
+    "nghia": "phòng giữ, đê"
+  },
+  "危": {
+    "hv": "nguy",
+    "nghia": "nguy hiểm"
+  },
+  "各": {
+    "hv": "các",
+    "nghia": "mỗi, các"
+  },
+  "污": {
+    "hv": "ô",
+    "nghia": "bẩn, nhơ"
+  },
+  "血": {
+    "hv": "huyết",
+    "nghia": "máu"
+  },
+  "交": {
+    "hv": "giao",
+    "nghia": "giao, trao đổi"
+  },
+  "此": {
+    "hv": "thử",
+    "nghia": "này, đây"
+  },
+  "妃": {
+    "hv": "phi",
+    "nghia": "vợ vua, phi tần"
+  },
+  "寺": {
+    "hv": "tự",
+    "nghia": "chùa"
+  },
+  "竹": {
+    "hv": "trúc",
+    "nghia": "tre, trúc"
+  },
+  "色": {
+    "hv": "sắc",
+    "nghia": "màu sắc, sắc đẹp"
+  },
+  "伊": {
+    "hv": "y",
+    "nghia": "ấy, kia, người ấy"
+  },
+  "肉": {
+    "hv": "nhục",
+    "nghia": "thịt"
+  },
+  "阮": {
+    "hv": "nguyễn",
+    "nghia": "họ Nguyễn"
+  },
+  "死": {
+    "hv": "tử",
+    "nghia": "chết"
+  },
+  "充": {
+    "hv": "sung",
+    "nghia": "đầy, đủ"
+  },
+  "夷": {
+    "hv": "di",
+    "nghia": "rợ, bằng phẳng"
+  },
+  "休": {
+    "hv": "hưu",
+    "nghia": "nghỉ"
+  },
+  "汐": {
+    "hv": "tịch",
+    "nghia": "nước triều chiều"
+  },
+  "汙": {
+    "hv": "ô",
+    "nghia": "bẩn (như 污)"
+  },
+  "奸": {
+    "hv": "gian",
+    "nghia": "gian trá"
+  },
+  "邦": {
+    "hv": "bang",
+    "nghia": "nước, đất nước"
+  },
+  "妄": {
+    "hv": "vọng",
+    "nghia": "càn, bậy"
+  },
+  "因": {
+    "hv": "nhân",
+    "nghia": "nguyên nhân, vì"
+  },
+  "吒": {
+    "hv": "tra",
+    "nghia": "thét, quát"
+  },
+  "耳": {
+    "hv": "nhĩ",
+    "nghia": "tai"
+  },
+  "旬": {
+    "hv": "tuần",
+    "nghia": "mười ngày"
+  },
+  "衣": {
+    "hv": "y",
+    "nghia": "áo"
+  },
+  "芒": {
+    "hv": "mang",
+    "nghia": "tua lúa, nhọn"
+  },
+  "字": {
+    "hv": "tự",
+    "nghia": "chữ"
+  },
+  "守": {
+    "hv": "thủ",
+    "nghia": "giữ"
+  },
+  "吊": {
+    "hv": "điếu",
+    "nghia": "treo, viếng"
+  },
+  "羽": {
+    "hv": "vũ",
+    "nghia": "lông cánh"
+  },
+  "地": {
+    "hv": "địa",
+    "nghia": "đất"
+  },
+  "圬": {
+    "hv": "ô",
+    "nghia": "trát tường"
+  },
+  "存": {
+    "hv": "tồn",
+    "nghia": "còn, tồn tại"
+  },
+  "百": {
+    "hv": "bách",
+    "nghia": "trăm"
+  },
+  "伸": {
+    "hv": "thân",
+    "nghia": "duỗi, vươn"
+  },
+  "投": {
+    "hv": "đầu",
+    "nghia": "ném, đầu nhập"
+  },
+  "吟": {
+    "hv": "ngâm",
+    "nghia": "ngâm thơ"
+  },
+  "攸": {
+    "hv": "du",
+    "nghia": "nơi, mà"
+  },
+  "扼": {
+    "hv": "ách",
+    "nghia": "bóp cổ, chặn"
+  },
+  "伶": {
+    "hv": "linh",
+    "nghia": "đào kép, lanh lợi"
+  },
+  "妥": {
+    "hv": "thoả",
+    "nghia": "ổn thoả"
+  },
+  "走": {
+    "hv": "tẩu",
+    "nghia": "đi, chạy"
+  },
+  "男": {
+    "hv": "nam",
+    "nghia": "đàn ông, nam"
+  },
+  "囪": {
+    "hv": "thông",
+    "nghia": "ống khói, cửa sổ"
+  },
+  "但": {
+    "hv": "đãn",
+    "nghia": "nhưng, chỉ"
+  },
+  "足": {
+    "hv": "túc",
+    "nghia": "chân, đủ"
+  },
+  "完": {
+    "hv": "hoàn",
+    "nghia": "trọn vẹn, xong"
+  },
+  "佞": {
+    "hv": "nịnh",
+    "nghia": "xu nịnh"
+  },
+  "妒": {
+    "hv": "đố",
+    "nghia": "ghen tỵ"
+  },
+  "沛": {
+    "hv": "phái",
+    "nghia": "dồi dào, phồn thịnh"
+  },
+  "邑": {
+    "hv": "ấp",
+    "nghia": "ấp, làng"
+  },
+  "阿": {
+    "hv": "a",
+    "nghia": "(tiếng gọi), nương dựa"
+  },
+  "旰": {
+    "hv": "cán",
+    "nghia": "trời tối, muộn"
+  },
+  "初": {
+    "hv": "sơ",
+    "nghia": "ban đầu"
+  },
+  "吹": {
+    "hv": "xuy",
+    "nghia": "thổi"
+  },
+  "步": {
+    "hv": "bộ",
+    "nghia": "bước"
+  },
+  "床": {
+    "hv": "sàng",
+    "nghia": "giường"
+  },
+  "希": {
+    "hv": "hy",
+    "nghia": "hy vọng, hiếm"
+  },
+  "汪": {
+    "hv": "uông",
+    "nghia": "mênh mông"
+  },
+  "社": {
+    "hv": "xã",
+    "nghia": "xã, hội"
+  },
+  "抗": {
+    "hv": "kháng",
+    "nghia": "chống cự"
+  },
+  "低": {
+    "hv": "đê",
+    "nghia": "thấp"
+  },
+  "伴": {
+    "hv": "bạn",
+    "nghia": "bạn, đi cùng"
+  },
+  "劬": {
+    "hv": "cù",
+    "nghia": "nhọc nhằn"
+  },
+  "杜": {
+    "hv": "đỗ",
+    "nghia": "ngăn cấm, họ Đỗ"
+  },
+  "我": {
+    "hv": "ngã",
+    "nghia": "ta, tôi"
+  },
+  "忌": {
+    "hv": "kỵ",
+    "nghia": "kiêng kỵ"
+  },
+  "尾": {
+    "hv": "vĩ",
+    "nghia": "đuôi"
+  },
+  "伯": {
+    "hv": "bá",
+    "nghia": "bác, bá tước"
+  },
+  "役": {
+    "hv": "dịch",
+    "nghia": "việc, sai khiến"
+  },
+  "呃": {
+    "hv": "ách",
+    "nghia": "nấc, tiếng nấc"
+  },
+  "佛": {
+    "hv": "phật",
+    "nghia": "Phật"
+  },
+  "攻": {
+    "hv": "công",
+    "nghia": "tấn công"
+  },
+  "秀": {
+    "hv": "tú",
+    "nghia": "đẹp, tài năng"
+  },
+  "旱": {
+    "hv": "hạn",
+    "nghia": "khô hạn"
+  },
+  "壯": {
+    "hv": "tráng",
+    "nghia": "khoẻ mạnh"
+  },
+  "豆": {
+    "hv": "đậu",
+    "nghia": "đậu, hạt đậu"
+  },
+  "近": {
+    "hv": "cận",
+    "nghia": "gần"
+  },
+  "佇": {
+    "hv": "trữ",
+    "nghia": "đứng lâu chờ"
+  },
+  "災": {
+    "hv": "tai",
+    "nghia": "tai hoạ"
+  },
+  "即": {
+    "hv": "tức",
+    "nghia": "tức là, ngay"
+  },
+  "私": {
+    "hv": "tư",
+    "nghia": "riêng, tư"
+  },
+  "夾": {
+    "hv": "giáp",
+    "nghia": "kẹp"
+  },
+  "吾": {
+    "hv": "ngô",
+    "nghia": "ta, tôi"
+  },
+  "貝": {
+    "hv": "bối",
+    "nghia": "vỏ sò, tiền"
+  },
+  "妝": {
+    "hv": "trang",
+    "nghia": "trang điểm"
+  },
+  "束": {
+    "hv": "thúc",
+    "nghia": "bó, ràng buộc"
+  },
+  "坑": {
+    "hv": "khanh",
+    "nghia": "hố, chôn"
+  },
+  "君": {
+    "hv": "quân",
+    "nghia": "vua, anh"
+  },
+  "忘": {
+    "hv": "vong",
+    "nghia": "quên"
+  },
+  "坐": {
+    "hv": "toạ",
+    "nghia": "ngồi"
+  },
+  "陂": {
+    "hv": "bi",
+    "nghia": "đê, bờ"
+  },
+  "佃": {
+    "hv": "điền",
+    "nghia": "tá điền, cày ruộng"
+  },
+  "材": {
+    "hv": "tài",
+    "nghia": "vật liệu, tài năng"
+  },
+  "快": {
+    "hv": "khoái",
+    "nghia": "nhanh, vui"
+  },
+  "址": {
+    "hv": "chỉ",
+    "nghia": "nền, địa chỉ"
+  },
+  "汴": {
+    "hv": "biện",
+    "nghia": "sông Biện"
+  },
+  "豕": {
+    "hv": "thỉ",
+    "nghia": "lợn"
+  },
+  "沂": {
+    "hv": "nghi",
+    "nghia": "sông Nghi"
+  },
+  "卵": {
+    "hv": "noãn",
+    "nghia": "trứng"
+  },
+  "扳": {
+    "hv": "ban",
+    "nghia": "kéo lại, lôi"
+  },
+  "佚": {
+    "hv": "dật",
+    "nghia": "thư thái, mất"
+  },
+  "芳": {
+    "hv": "phương",
+    "nghia": "thơm"
+  },
+  "姊": {
+    "hv": "tỷ",
+    "nghia": "chị"
+  },
+  "究": {
+    "hv": "cứu",
+    "nghia": "nghiên cứu, rốt cuộc"
+  },
+  "兌": {
+    "hv": "đoái",
+    "nghia": "đổi, quẻ Đoài"
+  },
+  "忤": {
+    "hv": "ngỗ",
+    "nghia": "trái ý, ngỗ nghịch"
+  },
+  "沐": {
+    "hv": "mộc",
+    "nghia": "gội, tắm gội"
+  },
+  "皂": {
+    "hv": "tạo",
+    "nghia": "đen, xà phòng"
+  },
+  "芥": {
+    "hv": "giới",
+    "nghia": "rau cải, hạt cải"
+  },
+  "芽": {
+    "hv": "nha",
+    "nghia": "mầm"
+  },
+  "杖": {
+    "hv": "trượng",
+    "nghia": "gậy"
+  },
+  "芸": {
+    "hv": "vân",
+    "nghia": "cỏ vân, làm cỏ"
+  },
+  "杏": {
+    "hv": "hạnh",
+    "nghia": "cây hạnh"
+  },
+  "返": {
+    "hv": "phản",
+    "nghia": "trở về"
+  },
+  "芭": {
+    "hv": "ba",
+    "nghia": "chuối, cây ba tiêu"
+  },
+  "決": {
+    "hv": "quyết",
+    "nghia": "quyết định, vỡ đê"
+  },
+  "位": {
+    "hv": "vị",
+    "nghia": "vị trí, ngôi"
+  },
+  "妍": {
+    "hv": "nghiên",
+    "nghia": "đẹp"
+  },
+  "每": {
+    "hv": "mỗi",
+    "nghia": "mỗi"
+  },
+  "妙": {
+    "hv": "diệu",
+    "nghia": "kỳ diệu"
+  },
+  "忍": {
+    "hv": "nhẫn",
+    "nghia": "nhịn, nhẫn"
+  },
+  "附": {
+    "hv": "phụ",
+    "nghia": "gắn vào, phụ thuộc"
+  },
+  "宋": {
+    "hv": "tống",
+    "nghia": "nhà Tống, họ Tống"
+  },
+  "坊": {
+    "hv": "phường",
+    "nghia": "phường, xưởng"
+  },
+  "劭": {
+    "hv": "thiệu",
+    "nghia": "khuyến khích, mỹ tốt"
+  },
+  "迎": {
+    "hv": "nghênh",
+    "nghia": "đón, nghênh tiếp"
+  },
+  "甫": {
+    "hv": "phủ",
+    "nghia": "mới, vừa, đàn ông"
+  },
+  "芡": {
+    "hv": "khiếm",
+    "nghia": "cây súng"
+  },
+  "灼": {
+    "hv": "chước",
+    "nghia": "đốt, rõ ràng"
+  },
+  "系": {
+    "hv": "hệ",
+    "nghia": "hệ thống, buộc"
+  },
+  "圻": {
+    "hv": "kỳ",
+    "nghia": "ranh giới"
+  },
+  "批": {
+    "hv": "phê",
+    "nghia": "phê bình, phê chuẩn"
+  },
+  "李": {
+    "hv": "lý",
+    "nghia": "mận, họ Lý"
+  },
+  "住": {
+    "hv": "trú",
+    "nghia": "ở, dừng"
+  },
+  "刪": {
+    "hv": "san",
+    "nghia": "xoá bớt"
+  },
+  "別": {
+    "hv": "biệt",
+    "nghia": "khác, chia tay"
+  },
+  "克": {
+    "hv": "khắc",
+    "nghia": "thắng, khắc phục"
+  },
+  "劫": {
+    "hv": "kiếp",
+    "nghia": "cướp, kiếp"
+  },
+  "身": {
+    "hv": "thân",
+    "nghia": "thân thể"
+  },
+  "伺": {
+    "hv": "tý",
+    "nghia": "rình, đợi"
+  },
+  "芬": {
+    "hv": "phân",
+    "nghia": "thơm"
+  },
+  "見": {
+    "hv": "kiến",
+    "nghia": "thấy"
+  },
+  "汰": {
+    "hv": "thái",
+    "nghia": "đãi, sa thải"
+  },
+  "呈": {
+    "hv": "trình",
+    "nghia": "trình bày, dâng"
+  },
+  "序": {
+    "hv": "tự",
+    "nghia": "thứ tự, lời tựa"
+  },
+  "扶": {
+    "hv": "phù",
+    "nghia": "đỡ, giúp"
+  },
+  "判": {
+    "hv": "phán",
+    "nghia": "phán xét"
+  },
+  "抄": {
+    "hv": "sao",
+    "nghia": "chép, lục soát"
+  },
+  "芹": {
+    "hv": "cần",
+    "nghia": "rau cần"
+  },
+  "兵": {
+    "hv": "binh",
+    "nghia": "lính, binh khí"
+  },
+  "矣": {
+    "hv": "hỹ",
+    "nghia": "rồi, vậy (trợ từ)"
+  },
+  "利": {
+    "hv": "lợi",
+    "nghia": "lợi, sắc bén"
+  },
+  "花": {
+    "hv": "hoa",
+    "nghia": "hoa"
+  },
+  "困": {
+    "hv": "khốn",
+    "nghia": "khốn khó"
+  },
+  "車": {
+    "hv": "xa",
+    "nghia": "xe"
+  },
+  "均": {
+    "hv": "quân",
+    "nghia": "đều, bằng"
+  },
+  "村": {
+    "hv": "thôn",
+    "nghia": "làng"
+  },
+  "杞": {
+    "hv": "kỷ",
+    "nghia": "cây kỷ, nước Kỷ"
+  },
+  "妓": {
+    "hv": "kỹ",
+    "nghia": "kỹ nữ"
+  },
+  "沙": {
+    "hv": "sa",
+    "nghia": "cát"
+  },
+  "弄": {
+    "hv": "lộng",
+    "nghia": "đùa giỡn, chơi"
+  },
+  "弟": {
+    "hv": "đệ",
+    "nghia": "em"
+  },
+  "牢": {
+    "hv": "lao",
+    "nghia": "chuồng, nhà tù, chắc"
+  },
+  "呆": {
+    "hv": "ngai",
+    "nghia": "ngơ ngẩn"
+  },
+  "狄": {
+    "hv": "địch",
+    "nghia": "rợ Bắc"
+  },
+  "求": {
+    "hv": "cầu",
+    "nghia": "cầu xin, tìm"
+  },
+  "佐": {
+    "hv": "tá",
+    "nghia": "phụ giúp"
+  },
+  "甸": {
+    "hv": "điện",
+    "nghia": "vùng ngoài kinh đô"
+  },
+  "灶": {
+    "hv": "táo",
+    "nghia": "bếp"
+  },
+  "迓": {
+    "hv": "nhạ",
+    "nghia": "đón tiếp"
+  },
+  "肖": {
+    "hv": "tiếu",
+    "nghia": "giống, tuấn tú"
+  },
+  "孝": {
+    "hv": "hiếu",
+    "nghia": "hiếu thảo"
+  },
+  "辰": {
+    "hv": "thìn",
+    "nghia": "chi Thìn (rồng), thời gian"
+  },
+  "牡": {
+    "hv": "mẫu",
+    "nghia": "đực, mạnh"
+  },
+  "更": {
+    "hv": "canh",
+    "nghia": "canh giờ, thay đổi"
+  },
+  "吠": {
+    "hv": "phệ",
+    "nghia": "sủa"
+  },
+  "吞": {
+    "hv": "thôn",
+    "nghia": "nuốt"
+  },
+  "含": {
+    "hv": "hàm",
+    "nghia": "ngậm, chứa"
+  },
+  "孚": {
+    "hv": "phu",
+    "nghia": "tin, ấp trứng"
+  },
+  "呂": {
+    "hv": "lữ",
+    "nghia": "âm nhạc, họ Lữ"
+  },
+  "肝": {
+    "hv": "can",
+    "nghia": "gan"
+  },
+  "吳": {
+    "hv": "ngô",
+    "nghia": "nước Ngô, họ Ngô"
+  },
+  "沈": {
+    "hv": "trầm",
+    "nghia": "chìm, họ Thẩm"
+  },
+  "忱": {
+    "hv": "thầm",
+    "nghia": "thành thực"
+  },
+  "免": {
+    "hv": "miễn",
+    "nghia": "miễn, khỏi"
+  },
+  "沒": {
+    "hv": "một",
+    "nghia": "chìm, không"
+  },
+  "良": {
+    "hv": "lương",
+    "nghia": "tốt, hiền"
+  },
+  "志": {
+    "hv": "chí",
+    "nghia": "ý chí"
+  },
+  "沚": {
+    "hv": "chỉ",
+    "nghia": "bãi nhỏ giữa nước"
+  },
+  "否": {
+    "hv": "phủ",
+    "nghia": "không, phủ định"
+  },
+  "豸": {
+    "hv": "trĩ",
+    "nghia": "loài thú không chân"
+  },
+  "谷": {
+    "hv": "cốc",
+    "nghia": "thung lũng"
+  },
+  "赤": {
+    "hv": "xích",
+    "nghia": "đỏ"
+  },
+  "抔": {
+    "hv": "phẫu",
+    "nghia": "vốc tay bụm"
+  },
+  "妊": {
+    "hv": "nhâm",
+    "nghia": "có thai"
+  },
+  "言": {
+    "hv": "ngôn",
+    "nghia": "lời nói"
+  },
+  "作": {
+    "hv": "tác",
+    "nghia": "làm, tác phẩm"
+  },
+  "折": {
+    "hv": "chiết",
+    "nghia": "bẻ gãy"
+  },
+  "祀": {
+    "hv": "tự",
+    "nghia": "tế lễ"
+  },
+  "角": {
+    "hv": "giác",
+    "nghia": "góc, sừng"
+  },
+  "何": {
+    "hv": "hà",
+    "nghia": "gì, sao"
+  },
+  "禿": {
+    "hv": "thốc",
+    "nghia": "hói, trụi"
+  },
+  "妖": {
+    "hv": "yêu",
+    "nghia": "yêu quái, yêu kiều"
+  },
+  "形": {
+    "hv": "hình",
+    "nghia": "hình dạng"
+  },
+  "阻": {
+    "hv": "trở",
+    "nghia": "ngăn cản"
+  },
+  "汶": {
+    "hv": "vấn",
+    "nghia": "sông Vấn"
+  },
+  "戒": {
+    "hv": "giới",
+    "nghia": "răn cấm, giới"
+  },
+  "狂": {
+    "hv": "cuồng",
+    "nghia": "điên, ngông"
+  },
+  "助": {
+    "hv": "trợ",
+    "nghia": "giúp"
+  },
+  "改": {
+    "hv": "cải",
+    "nghia": "đổi, sửa"
+  },
+  "伻": {
+    "hv": "bình",
+    "nghia": "sai khiến, sứ giả"
+  },
+  "羌": {
+    "hv": "khương",
+    "nghia": "rợ Khương"
+  },
+  "岐": {
+    "hv": "kỳ",
+    "nghia": "núi Kỳ, rẽ nhánh"
+  },
+  "巫": {
+    "hv": "vu",
+    "nghia": "phù thuỷ"
+  },
+  "屈": {
+    "hv": "khuất",
+    "nghia": "cong, chịu"
+  },
+  "罔": {
+    "hv": "võng",
+    "nghia": "không, lừa dối"
+  },
+  "戔": {
+    "hv": "tiên",
+    "nghia": "ít, nhỏ"
+  },
+  "府": {
+    "hv": "phủ",
+    "nghia": "phủ, dinh"
+  },
+  "京": {
+    "hv": "kinh",
+    "nghia": "kinh đô"
+  },
+  "東": {
+    "hv": "đông",
+    "nghia": "phương đông"
+  },
+  "兩": {
+    "hv": "lưỡng",
+    "nghia": "hai, lạng"
+  },
+  "昂": {
+    "hv": "ngang",
+    "nghia": "ngẩng cao"
+  },
+  "河": {
+    "hv": "hà",
+    "nghia": "sông"
+  },
+  "帑": {
+    "hv": "thảng",
+    "nghia": "kho bạc"
+  },
+  "枕": {
+    "hv": "chẩm",
+    "nghia": "gối"
+  },
+  "若": {
+    "hv": "nhược",
+    "nghia": "nếu, như"
+  },
+  "佽": {
+    "hv": "thứ",
+    "nghia": "giúp đỡ"
+  },
+  "姑": {
+    "hv": "cô",
+    "nghia": "cô, tạm"
+  },
+  "拋": {
+    "hv": "phao",
+    "nghia": "ném, vứt"
+  },
+  "知": {
+    "hv": "tri",
+    "nghia": "biết"
+  },
+  "底": {
+    "hv": "để",
+    "nghia": "đáy, đến"
+  },
+  "易": {
+    "hv": "dịch",
+    "nghia": "đổi, dễ"
+  },
+  "居": {
+    "hv": "cư",
+    "nghia": "ở, cư trú"
+  },
+  "弦": {
+    "hv": "huyền",
+    "nghia": "dây cung, dây đàn"
+  },
+  "祈": {
+    "hv": "kỳ",
+    "nghia": "cầu khẩn"
+  },
+  "武": {
+    "hv": "vũ",
+    "nghia": "võ, mạnh mẽ"
+  },
+  "舍": {
+    "hv": "xá",
+    "nghia": "nhà, bỏ"
+  },
+  "爭": {
+    "hv": "tranh",
+    "nghia": "tranh giành"
+  },
+  "所": {
+    "hv": "sở",
+    "nghia": "nơi, sở"
+  },
+  "於": {
+    "hv": "ư",
+    "nghia": "ở, tại"
+  },
+  "降": {
+    "hv": "giáng",
+    "nghia": "xuống, hàng"
+  },
+  "朋": {
+    "hv": "bằng",
+    "nghia": "bạn bè"
+  },
+  "亞": {
+    "hv": "á",
+    "nghia": "thứ, gần"
+  },
+  "狗": {
+    "hv": "cẩu",
+    "nghia": "chó"
+  },
+  "味": {
+    "hv": "vị",
+    "nghia": "mùi vị"
+  },
+  "坦": {
+    "hv": "thản",
+    "nghia": "bằng phẳng, thư thái"
+  },
+  "秈": {
+    "hv": "tiên",
+    "nghia": "lúa tẻ"
+  },
+  "押": {
+    "hv": "áp",
+    "nghia": "đè, áp giải"
+  },
+  "坰": {
+    "hv": "quynh",
+    "nghia": "ngoài đồng xa"
+  },
+  "育": {
+    "hv": "dục",
+    "nghia": "nuôi dạy"
+  },
+  "盂": {
+    "hv": "vu",
+    "nghia": "cái bát to"
+  },
+  "茂": {
+    "hv": "mậu",
+    "nghia": "tươi tốt"
+  },
+  "拖": {
+    "hv": "tha",
+    "nghia": "kéo lê"
+  },
+  "侖": {
+    "hv": "luân",
+    "nghia": "luân lý, sắp xếp"
+  },
+  "明": {
+    "hv": "minh",
+    "nghia": "sáng"
+  },
+  "抹": {
+    "hv": "mạt",
+    "nghia": "xoá, bôi"
+  },
+  "迫": {
+    "hv": "bách",
+    "nghia": "ép, gấp"
+  },
+  "奄": {
+    "hv": "yểm",
+    "nghia": "che, bỗng"
+  },
+  "物": {
+    "hv": "vật",
+    "nghia": "vật, đồ"
+  },
+  "糾": {
+    "hv": "củ",
+    "nghia": "kết tụ, sửa sai"
+  },
+  "孤": {
+    "hv": "cô",
+    "nghia": "côi cút"
+  },
+  "刺": {
+    "hv": "thích",
+    "nghia": "đâm, châm"
+  },
+  "卑": {
+    "hv": "ti",
+    "nghia": "thấp hèn"
+  },
+  "佾": {
+    "hv": "dật",
+    "nghia": "hàng múa lễ"
+  },
+  "和": {
+    "hv": "hoà",
+    "nghia": "hoà hợp"
+  },
+  "空": {
+    "hv": "không",
+    "nghia": "trống không"
+  },
+  "放": {
+    "hv": "phóng",
+    "nghia": "thả, phóng"
+  },
+  "阜": {
+    "hv": "phụ",
+    "nghia": "gò đất, dồi dào"
+  },
+  "服": {
+    "hv": "phục",
+    "nghia": "mặc, phục tùng"
+  },
+  "性": {
+    "hv": "tính",
+    "nghia": "tính, tính nết"
+  },
+  "岱": {
+    "hv": "đại",
+    "nghia": "núi Thái Sơn"
+  },
+  "昆": {
+    "hv": "côn",
+    "nghia": "anh, bầy"
+  },
+  "弩": {
+    "hv": "nỗ",
+    "nghia": "nỏ"
+  },
+  "苟": {
+    "hv": "cẩu",
+    "nghia": "tạm bợ, nếu"
+  },
+  "昇": {
+    "hv": "thăng",
+    "nghia": "lên cao"
+  },
+  "岫": {
+    "hv": "tụ",
+    "nghia": "hang núi"
+  },
+  "枝": {
+    "hv": "chi",
+    "nghia": "cành cây"
+  },
+  "昔": {
+    "hv": "tích",
+    "nghia": "xưa"
+  },
+  "杳": {
+    "hv": "yểu",
+    "nghia": "mờ mịt, sâu xa"
+  },
+  "宜": {
+    "hv": "nghi",
+    "nghia": "nên, thích hợp"
+  },
+  "杼": {
+    "hv": "trữ",
+    "nghia": "con thoi dệt"
+  },
+  "奉": {
+    "hv": "phụng",
+    "nghia": "kính dâng"
+  },
+  "岸": {
+    "hv": "ngạn",
+    "nghia": "bờ"
+  },
+  "坤": {
+    "hv": "khôn",
+    "nghia": "quẻ Khôn (đất)"
+  },
+  "杵": {
+    "hv": "chử",
+    "nghia": "cái chày"
+  },
+  "拈": {
+    "hv": "niêm",
+    "nghia": "nhón, cầm"
+  },
+  "英": {
+    "hv": "anh",
+    "nghia": "tinh hoa, anh hùng"
+  },
+  "青": {
+    "hv": "thanh",
+    "nghia": "xanh"
+  },
+  "苞": {
+    "hv": "bao",
+    "nghia": "búp, bọc"
+  },
+  "欣": {
+    "hv": "hân",
+    "nghia": "vui mừng"
+  },
+  "茅": {
+    "hv": "mao",
+    "nghia": "cỏ tranh"
+  },
+  "囹": {
+    "hv": "linh",
+    "nghia": "nhà tù (linh ngữ)"
+  },
+  "苓": {
+    "hv": "linh",
+    "nghia": "phục linh, cỏ linh"
+  },
+  "者": {
+    "hv": "giả",
+    "nghia": "kẻ, người"
+  },
+  "典": {
+    "hv": "điển",
+    "nghia": "kinh điển, điển cố"
+  },
+  "苦": {
+    "hv": "khổ",
+    "nghia": "khổ, đắng"
+  },
+  "例": {
+    "hv": "lệ",
+    "nghia": "lệ, ví dụ"
+  },
+  "的": {
+    "hv": "đích",
+    "nghia": "đích, thật"
+  },
+  "妻": {
+    "hv": "thê",
+    "nghia": "vợ"
+  },
+  "妾": {
+    "hv": "thiếp",
+    "nghia": "vợ lẽ"
+  },
+  "枇": {
+    "hv": "tỳ",
+    "nghia": "cây tỳ bà"
+  },
+  "姍": {
+    "hv": "san",
+    "nghia": "chê cười, đi chậm"
+  },
+  "金": {
+    "hv": "kim",
+    "nghia": "vàng, kim loại"
+  },
+  "泓": {
+    "hv": "hoằng",
+    "nghia": "vùng nước sâu"
+  },
+  "杷": {
+    "hv": "ba",
+    "nghia": "cây tỳ bà, cào"
+  },
+  "炬": {
+    "hv": "cự",
+    "nghia": "đuốc"
+  },
+  "卷": {
+    "hv": "quyển",
+    "nghia": "cuộn, quyển"
+  },
+  "委": {
+    "hv": "uỷ",
+    "nghia": "uỷ thác, để"
+  },
+  "直": {
+    "hv": "trực",
+    "nghia": "thẳng"
+  },
+  "祇": {
+    "hv": "kỳ",
+    "nghia": "thần đất, chỉ"
+  },
+  "函": {
+    "hv": "hàm",
+    "nghia": "hộp, thư"
+  },
+  "具": {
+    "hv": "cụ",
+    "nghia": "đồ dùng, đầy đủ"
+  },
+  "耶": {
+    "hv": "da",
+    "nghia": "ư? phải không?"
+  },
+  "拉": {
+    "hv": "lạp",
+    "nghia": "kéo"
+  },
+  "妹": {
+    "hv": "muội",
+    "nghia": "em gái"
+  },
+  "苔": {
+    "hv": "đài",
+    "nghia": "rêu"
+  },
+  "穹": {
+    "hv": "khung",
+    "nghia": "vòm trời"
+  },
+  "陋": {
+    "hv": "lậu",
+    "nghia": "xấu, hèn"
+  },
+  "兒": {
+    "hv": "nhi",
+    "nghia": "trẻ con"
+  },
+  "泳": {
+    "hv": "vịnh",
+    "nghia": "bơi"
+  },
+  "迢": {
+    "hv": "thiều",
+    "nghia": "xa xôi"
+  },
+  "呴": {
+    "hv": "hú",
+    "nghia": "thở, hà hơi"
+  },
+  "劾": {
+    "hv": "hặc",
+    "nghia": "tố cáo, hạch tội"
+  },
+  "斧": {
+    "hv": "phủ",
+    "nghia": "cái rìu"
+  },
+  "狐": {
+    "hv": "hồ",
+    "nghia": "cáo"
+  },
+  "怪": {
+    "hv": "quái",
+    "nghia": "lạ, quái"
+  },
+  "供": {
+    "hv": "cung",
+    "nghia": "cung cấp"
+  },
+  "虯": {
+    "hv": "cù",
+    "nghia": "rồng con có sừng"
+  },
+  "肯": {
+    "hv": "khẳng",
+    "nghia": "khứng, chịu"
+  },
+  "治": {
+    "hv": "trị",
+    "nghia": "cai trị, chữa"
+  },
+  "狀": {
+    "hv": "trạng",
+    "nghia": "hình trạng, trạng nguyên"
+  },
+  "抱": {
+    "hv": "bão",
+    "nghia": "ôm"
+  },
+  "怏": {
+    "hv": "ưởng",
+    "nghia": "không vui, buồn"
+  },
+  "周": {
+    "hv": "chu",
+    "nghia": "vòng quanh, đầy đủ"
+  },
+  "非": {
+    "hv": "phi",
+    "nghia": "không phải"
+  },
+  "受": {
+    "hv": "thụ",
+    "nghia": "nhận, chịu"
+  },
+  "岵": {
+    "hv": "hỗ",
+    "nghia": "núi có cây"
+  },
+  "注": {
+    "hv": "chú",
+    "nghia": "rót, chú giải"
+  },
+  "奔": {
+    "hv": "bôn",
+    "nghia": "chạy nhanh"
+  },
+  "往": {
+    "hv": "vãng",
+    "nghia": "đi, xưa"
+  },
+  "岡": {
+    "hv": "cương",
+    "nghia": "gò, đồi"
+  },
+  "炙": {
+    "hv": "chích",
+    "nghia": "nướng, xông"
+  },
+  "沸": {
+    "hv": "phí",
+    "nghia": "sôi"
+  },
+  "卓": {
+    "hv": "trác",
+    "nghia": "cao, vượt"
+  },
+  "虎": {
+    "hv": "hổ",
+    "nghia": "hổ, cọp"
+  },
+  "其": {
+    "hv": "kỳ",
+    "nghia": "nó, kia"
+  },
+  "肢": {
+    "hv": "chi",
+    "nghia": "chân tay"
+  },
+  "述": {
+    "hv": "thuật",
+    "nghia": "thuật, kể lại"
+  },
+  "狒": {
+    "hv": "phí",
+    "nghia": "khỉ đột"
+  },
+  "矼": {
+    "hv": "cương",
+    "nghia": "cầu đá"
+  },
+  "泔": {
+    "hv": "cam",
+    "nghia": "nước vo gạo"
+  },
+  "況": {
+    "hv": "huống",
+    "nghia": "huống chi, tình huống"
+  },
+  "尚": {
+    "hv": "thượng",
+    "nghia": "còn, chuộng"
+  },
+  "依": {
+    "hv": "y",
+    "nghia": "nương dựa"
+  },
+  "來": {
+    "hv": "lai",
+    "nghia": "đến"
+  },
+  "侍": {
+    "hv": "thị",
+    "nghia": "hầu hạ"
+  },
+  "侔": {
+    "hv": "mâu",
+    "nghia": "bằng, ngang"
+  },
+  "命": {
+    "hv": "mệnh",
+    "nghia": "mệnh lệnh, số mệnh"
+  },
+  "奇": {
+    "hv": "kỳ",
+    "nghia": "lạ, lẻ"
+  },
+  "承": {
+    "hv": "thừa",
+    "nghia": "thừa kế, nhận"
+  },
+  "迨": {
+    "hv": "đãi",
+    "nghia": "kịp, đến lúc"
+  },
+  "雨": {
+    "hv": "vũ",
+    "nghia": "mưa"
+  },
+  "旺": {
+    "hv": "vượng",
+    "nghia": "thịnh vượng"
+  },
+  "屆": {
+    "hv": "giới",
+    "nghia": "đến kỳ"
+  },
+  "泥": {
+    "hv": "nê",
+    "nghia": "bùn"
+  },
+  "制": {
+    "hv": "chế",
+    "nghia": "chế, làm"
+  },
+  "玨": {
+    "hv": "giác",
+    "nghia": "ngọc đôi"
+  },
+  "姓": {
+    "hv": "tính",
+    "nghia": "họ"
+  },
+  "秉": {
+    "hv": "bỉnh",
+    "nghia": "nắm giữ"
+  },
+  "苫": {
+    "hv": "thiêm",
+    "nghia": "lợp cỏ"
+  },
+  "股": {
+    "hv": "cổ",
+    "nghia": "đùi, phần"
+  },
+  "炎": {
+    "hv": "viêm",
+    "nghia": "nóng, viêm"
+  },
+  "庖": {
+    "hv": "bào",
+    "nghia": "nhà bếp"
+  },
+  "囷": {
+    "hv": "khuân",
+    "nghia": "vựa lúa tròn"
+  },
+  "郎": {
+    "hv": "lang",
+    "nghia": "chàng, lang"
+  },
+  "定": {
+    "hv": "định",
+    "nghia": "yên định"
+  },
+  "波": {
+    "hv": "ba",
+    "nghia": "sóng"
+  },
+  "帖": {
+    "hv": "thiếp",
+    "nghia": "tấm thiếp, ngoan"
+  },
+  "沿": {
+    "hv": "duyên",
+    "nghia": "theo, men theo"
+  },
+  "林": {
+    "hv": "lâm",
+    "nghia": "rừng"
+  },
+  "庚": {
+    "hv": "canh",
+    "nghia": "thứ bảy thiên can, tuổi"
+  },
+  "使": {
+    "hv": "sử",
+    "nghia": "khiến, sứ giả"
+  },
+  "店": {
+    "hv": "điếm",
+    "nghia": "cửa hàng"
+  },
+  "板": {
+    "hv": "bản",
+    "nghia": "tấm ván"
+  },
+  "炒": {
+    "hv": "sao",
+    "nghia": "xào, rang"
+  },
+  "泌": {
+    "hv": "tý",
+    "nghia": "tiết ra, ngấm"
+  },
+  "佯": {
+    "hv": "dương",
+    "nghia": "giả vờ"
+  },
+  "沼": {
+    "hv": "chiểu",
+    "nghia": "ao đầm"
+  },
+  "油": {
+    "hv": "du",
+    "nghia": "dầu"
+  },
+  "苾": {
+    "hv": "bật",
+    "nghia": "thơm tho"
+  },
+  "始": {
+    "hv": "thuỷ",
+    "nghia": "bắt đầu"
+  },
+  "協": {
+    "hv": "hiệp",
+    "nghia": "hợp tác"
+  },
+  "垂": {
+    "hv": "thuỳ",
+    "nghia": "rủ xuống, sắp"
+  },
+  "拘": {
+    "hv": "câu",
+    "nghia": "bắt giữ, câu nệ"
+  },
+  "軋": {
+    "hv": "yết",
+    "nghia": "nghiến, kẹt"
+  },
+  "盲": {
+    "hv": "manh",
+    "nghia": "mù"
+  },
+  "刲": {
+    "hv": "khuê",
+    "nghia": "đâm, cắt"
+  },
+  "臥": {
+    "hv": "ngoạ",
+    "nghia": "nằm"
+  },
+  "官": {
+    "hv": "quan",
+    "nghia": "quan, viên chức"
+  },
+  "怛": {
+    "hv": "đát",
+    "nghia": "đau buồn"
+  },
+  "並": {
+    "hv": "tịnh",
+    "nghia": "cùng, sánh"
+  },
+  "肥": {
+    "hv": "phì",
+    "nghia": "béo, mập"
+  },
+  "抽": {
+    "hv": "trừu",
+    "nghia": "rút ra"
+  },
+  "孟": {
+    "hv": "mạnh",
+    "nghia": "đầu, anh cả"
+  },
+  "併": {
+    "hv": "tinh",
+    "nghia": "hợp lại, gộp"
+  },
+  "氓": {
+    "hv": "manh",
+    "nghia": "dân, lưu dân"
+  },
+  "苴": {
+    "hv": "thư",
+    "nghia": "đệm cỏ"
+  },
+  "券": {
+    "hv": "khoán",
+    "nghia": "khoán, giấy ước"
+  },
+  "表": {
+    "hv": "biểu",
+    "nghia": "ngoài, bảng"
+  },
+  "彼": {
+    "hv": "bỉ",
+    "nghia": "kia, nó"
+  },
+  "沮": {
+    "hv": "trở",
+    "nghia": "ngăn cản, nản"
+  },
+  "固": {
+    "hv": "cố",
+    "nghia": "vững chắc, vốn"
+  },
+  "歿": {
+    "hv": "một",
+    "nghia": "chết"
+  },
+  "拔": {
+    "hv": "bạt",
+    "nghia": "nhổ, vượt"
+  },
+  "果": {
+    "hv": "quả",
+    "nghia": "quả, kết quả"
+  },
+  "披": {
+    "hv": "phi",
+    "nghia": "khoác, mở ra"
+  },
+  "呿": {
+    "hv": "khư",
+    "nghia": "há miệng"
+  },
+  "亟": {
+    "hv": "cức",
+    "nghia": "gấp, kíp"
+  },
+  "忠": {
+    "hv": "trung",
+    "nghia": "trung thành"
+  },
+  "刻": {
+    "hv": "khắc",
+    "nghia": "khắc, giờ khắc"
+  },
+  "陌": {
+    "hv": "mạch",
+    "nghia": "đường ngang"
+  },
+  "杪": {
+    "hv": "miểu",
+    "nghia": "ngọn cây, cuối"
+  },
+  "念": {
+    "hv": "niệm",
+    "nghia": "nghĩ, niệm"
+  },
+  "卦": {
+    "hv": "quái",
+    "nghia": "quẻ"
+  },
+  "征": {
+    "hv": "chinh",
+    "nghia": "đánh dẹp, đi xa"
+  },
+  "到": {
+    "hv": "đáo",
+    "nghia": "đến"
+  },
+  "肱": {
+    "hv": "quăng",
+    "nghia": "cánh tay"
+  },
+  "徂": {
+    "hv": "tồ",
+    "nghia": "đi, qua"
+  },
+  "些": {
+    "hv": "ta",
+    "nghia": "ít, một vài"
+  },
+  "咈": {
+    "hv": "phất",
+    "nghia": "trái ý, không vâng"
+  },
+  "侑": {
+    "hv": "hựu",
+    "nghia": "mời ăn"
+  },
+  "季": {
+    "hv": "quý",
+    "nghia": "út, mùa"
+  },
+  "取": {
+    "hv": "thủ",
+    "nghia": "lấy"
+  },
+  "夜": {
+    "hv": "dạ",
+    "nghia": "đêm"
+  },
+  "昏": {
+    "hv": "hôn",
+    "nghia": "tối, mê"
+  },
+  "忿": {
+    "hv": "phẫn",
+    "nghia": "giận"
+  },
+  "矽": {
+    "hv": "tịch",
+    "nghia": "silic (nguyên tố)"
+  },
+  "咼": {
+    "hv": "qua",
+    "nghia": "méo miệng"
+  },
+  "佳": {
+    "hv": "giai",
+    "nghia": "đẹp, hay"
+  },
+  "忽": {
+    "hv": "hốt",
+    "nghia": "bỗng, lơ là"
+  },
+  "泄": {
+    "hv": "tiết",
+    "nghia": "rò, tiết lộ"
+  },
+  "建": {
+    "hv": "kiến",
+    "nghia": "dựng, kiến trúc"
+  },
+  "肩": {
+    "hv": "kiên",
+    "nghia": "vai"
+  },
+  "幸": {
+    "hv": "hạnh",
+    "nghia": "may mắn"
+  },
+  "枚": {
+    "hv": "mai",
+    "nghia": "cái, chiếc"
+  },
+  "昌": {
+    "hv": "xương",
+    "nghia": "thịnh, đẹp"
+  },
+  "戾": {
+    "hv": "lệ",
+    "nghia": "trái ngược, hung dữ"
+  },
+  "呱": {
+    "hv": "cô",
+    "nghia": "tiếng trẻ khóc"
+  },
+  "或": {
+    "hv": "hoặc",
+    "nghia": "hoặc, có lẽ"
+  },
+  "茄": {
+    "hv": "gia",
+    "nghia": "cà"
+  },
+  "宗": {
+    "hv": "tông",
+    "nghia": "tông tộc, tôn"
+  },
+  "怍": {
+    "hv": "tạc",
+    "nghia": "xấu hổ"
+  },
+  "法": {
+    "hv": "pháp",
+    "nghia": "phép, pháp luật"
+  },
+  "宙": {
+    "hv": "trụ",
+    "nghia": "vũ trụ"
+  },
+  "昃": {
+    "hv": "trắc",
+    "nghia": "mặt trời xế bóng"
+  },
+  "狎": {
+    "hv": "hiệp",
+    "nghia": "thân mật quá, nhờn"
+  },
+  "長": {
+    "hv": "trường",
+    "nghia": "dài, trưởng"
+  },
+  "房": {
+    "hv": "phòng",
+    "nghia": "phòng"
+  },
+  "苻": {
+    "hv": "phù",
+    "nghia": "cỏ phù, họ Phù"
+  },
+  "門": {
+    "hv": "môn",
+    "nghia": "cửa"
+  },
+  "叔": {
+    "hv": "thúc",
+    "nghia": "chú, em chồng"
+  },
+  "牧": {
+    "hv": "mục",
+    "nghia": "chăn nuôi"
+  },
+  "乳": {
+    "hv": "nhũ",
+    "nghia": "sữa, vú"
+  },
+  "招": {
+    "hv": "chiêu",
+    "nghia": "vẫy, gọi, chiêu"
+  },
+  "呼": {
+    "hv": "hô",
+    "nghia": "kêu, gọi"
+  },
+  "盱": {
+    "hv": "hu",
+    "nghia": "trố mắt nhìn"
+  },
+  "拚": {
+    "hv": "biện",
+    "nghia": "liều mình, gắng"
+  },
+  "炊": {
+    "hv": "xuy",
+    "nghia": "thổi nấu, nấu cơm"
+  },
+  "侈": {
+    "hv": "xỉ",
+    "nghia": "xa xỉ"
+  },
+  "怵": {
+    "hv": "truật",
+    "nghia": "sợ hãi"
+  },
+  "事": {
+    "hv": "sự",
+    "nghia": "việc"
+  },
+  "狙": {
+    "hv": "thư",
+    "nghia": "rình rập, khỉ"
+  },
+  "拯": {
+    "hv": "chửng",
+    "nghia": "cứu vớt"
+  },
+  "政": {
+    "hv": "chính",
+    "nghia": "chính trị"
+  },
+  "郤": {
+    "hv": "khích",
+    "nghia": "khe hở, oán hận"
+  },
+  "染": {
+    "hv": "nhiễm",
+    "nghia": "nhuộm, lây"
+  },
+  "郟": {
+    "hv": "giáp",
+    "nghia": "huyện Giáp"
+  },
+  "前": {
+    "hv": "tiền",
+    "nghia": "trước"
+  },
+  "剋": {
+    "hv": "khắc",
+    "nghia": "khắc phục, kỳ hạn"
+  },
+  "迷": {
+    "hv": "mê",
+    "nghia": "mê, lạc"
+  },
+  "俐": {
+    "hv": "lị",
+    "nghia": "lanh lợi"
+  },
+  "待": {
+    "hv": "đãi",
+    "nghia": "đợi, đối đãi"
+  },
+  "拜": {
+    "hv": "bái",
+    "nghia": "lạy, bái"
+  },
+  "竿": {
+    "hv": "can",
+    "nghia": "cần câu, sào tre"
+  },
+  "柘": {
+    "hv": "giá",
+    "nghia": "cây dâu rừng"
+  },
+  "冠": {
+    "hv": "quan",
+    "nghia": "mũ, đứng đầu"
+  },
+  "俚": {
+    "hv": "lý",
+    "nghia": "quê mùa, tục ngữ"
+  },
+  "姿": {
+    "hv": "tư",
+    "nghia": "dáng vẻ"
+  },
+  "為": {
+    "hv": "vi",
+    "nghia": "làm, là"
+  },
+  "屏": {
+    "hv": "bình",
+    "nghia": "bình phong, ngăn"
+  },
+  "退": {
+    "hv": "thoái",
+    "nghia": "lui"
+  },
+  "挑": {
+    "hv": "khiêu",
+    "nghia": "khêu, gánh"
+  },
+  "垠": {
+    "hv": "ngân",
+    "nghia": "bờ cõi"
+  },
+  "科": {
+    "hv": "khoa",
+    "nghia": "khoa, ngành"
+  },
+  "砭": {
+    "hv": "biêm",
+    "nghia": "kim đá châm cứu"
+  },
+  "柚": {
+    "hv": "dữu",
+    "nghia": "bưởi"
+  },
+  "洛": {
+    "hv": "lạc",
+    "nghia": "sông Lạc"
+  },
+  "骨": {
+    "hv": "cốt",
+    "nghia": "xương"
+  },
+  "俟": {
+    "hv": "sĩ",
+    "nghia": "đợi"
+  },
+  "柱": {
+    "hv": "trụ",
+    "nghia": "cột"
+  },
+  "昭": {
+    "hv": "chiêu",
+    "nghia": "sáng tỏ"
+  },
+  "囿": {
+    "hv": "hữu",
+    "nghia": "vườn nuôi thú"
+  },
+  "瓴": {
+    "hv": "linh",
+    "nghia": "cái vò, ngói"
+  },
+  "重": {
+    "hv": "trọng",
+    "nghia": "nặng, quý"
+  },
+  "荊": {
+    "hv": "kinh",
+    "nghia": "cây gai, nước Sở"
+  },
+  "柯": {
+    "hv": "kha",
+    "nghia": "cành cây, cán rìu"
+  },
+  "柄": {
+    "hv": "bính",
+    "nghia": "cán, quyền"
+  },
+  "俗": {
+    "hv": "tục",
+    "nghia": "phong tục"
+  },
+  "促": {
+    "hv": "xúc",
+    "nghia": "thúc giục"
+  },
+  "俑": {
+    "hv": "dũng",
+    "nghia": "tượng người chôn theo"
+  },
+  "逃": {
+    "hv": "đào",
+    "nghia": "trốn"
+  },
+  "度": {
+    "hv": "độ",
+    "nghia": "đo, độ"
+  },
+  "姨": {
+    "hv": "di",
+    "nghia": "dì"
+  },
+  "陣": {
+    "hv": "trận",
+    "nghia": "trận, đám"
+  },
+  "厘": {
+    "hv": "ly",
+    "nghia": "đơn vị nhỏ"
+  },
+  "信": {
+    "hv": "tín",
+    "nghia": "tin, thư"
+  },
+  "括": {
+    "hv": "quát",
+    "nghia": "bao gồm"
+  },
+  "紆": {
+    "hv": "vu",
+    "nghia": "uốn quanh"
+  },
+  "陘": {
+    "hv": "hình",
+    "nghia": "đường núi"
+  },
+  "紅": {
+    "hv": "hồng",
+    "nghia": "đỏ hồng"
+  },
+  "枹": {
+    "hv": "phù",
+    "nghia": "cây gỗ phù"
+  },
+  "紂": {
+    "hv": "trụ",
+    "nghia": "vua Trụ"
+  },
+  "怒": {
+    "hv": "nộ",
+    "nghia": "giận"
+  },
+  "茸": {
+    "hv": "nhung",
+    "nghia": "lông tơ, lộc nhung"
+  },
+  "紇": {
+    "hv": "hột",
+    "nghia": "đầu mối tơ"
+  },
+  "城": {
+    "hv": "thành",
+    "nghia": "thành"
+  },
+  "約": {
+    "hv": "ước",
+    "nghia": "ước, hẹn"
+  },
+  "宣": {
+    "hv": "tuyên",
+    "nghia": "tuyên bố"
+  },
+  "級": {
+    "hv": "cấp",
+    "nghia": "cấp bậc"
+  },
+  "砌": {
+    "hv": "thế",
+    "nghia": "xây, bậc thềm"
+  },
+  "扃": {
+    "hv": "quynh",
+    "nghia": "then cửa, chốt"
+  },
+  "恆": {
+    "hv": "hằng",
+    "nghia": "thường, hằng"
+  },
+  "侯": {
+    "hv": "hầu",
+    "nghia": "hầu tước"
+  },
+  "紀": {
+    "hv": "kỷ",
+    "nghia": "kỷ luật, ghi chép"
+  },
+  "紉": {
+    "hv": "nhận",
+    "nghia": "khâu, xâu kim"
+  },
+  "省": {
+    "hv": "tỉnh",
+    "nghia": "tỉnh, xét"
+  },
+  "故": {
+    "hv": "cố",
+    "nghia": "cớ, cũ, mất"
+  },
+  "盾": {
+    "hv": "thuẫn",
+    "nghia": "cái khiên"
+  },
+  "俛": {
+    "hv": "phủ",
+    "nghia": "cúi đầu"
+  },
+  "柔": {
+    "hv": "nhu",
+    "nghia": "mềm, hiền"
+  },
+  "俞": {
+    "hv": "du",
+    "nghia": "vâng, ưng"
+  },
+  "威": {
+    "hv": "uy",
+    "nghia": "uy nghi, oai"
+  },
+  "俠": {
+    "hv": "hiệp",
+    "nghia": "hiệp nghĩa, hào hiệp"
+  },
+  "侶": {
+    "hv": "lữ",
+    "nghia": "bạn lứa"
+  },
+  "祗": {
+    "hv": "chi",
+    "nghia": "kính cẩn"
+  },
+  "奐": {
+    "hv": "hoán",
+    "nghia": "rực rỡ, đẹp"
+  },
+  "貞": {
+    "hv": "trinh",
+    "nghia": "trinh tiết, chính"
+  },
+  "柝": {
+    "hv": "thác",
+    "nghia": "mõ canh"
+  },
+  "殆": {
+    "hv": "đãi",
+    "nghia": "nguy, hầu như"
+  },
+  "負": {
+    "hv": "phụ",
+    "nghia": "đeo, thua, phụ bạc"
+  },
+  "屋": {
+    "hv": "ốc",
+    "nghia": "nhà"
+  },
+  "封": {
+    "hv": "phong",
+    "nghia": "phong, đóng kín"
+  },
+  "茗": {
+    "hv": "minh",
+    "nghia": "trà ngon"
+  },
+  "首": {
+    "hv": "thủ",
+    "nghia": "đầu, đứng đầu"
+  },
+  "韋": {
+    "hv": "vi",
+    "nghia": "da thuộc, trái nhau"
+  },
+  "俁": {
+    "hv": "ngụ",
+    "nghia": "to lớn"
+  },
+  "相": {
+    "hv": "tương",
+    "nghia": "lẫn nhau, tướng"
+  },
+  "洩": {
+    "hv": "tiết",
+    "nghia": "rò rỉ, tiết lộ"
+  },
+  "頁": {
+    "hv": "hiệt",
+    "nghia": "trang giấy, đầu"
+  },
+  "巷": {
+    "hv": "hạng",
+    "nghia": "ngõ hẻm"
+  },
+  "食": {
+    "hv": "thực",
+    "nghia": "ăn, thức ăn"
+  },
+  "勉": {
+    "hv": "miễn",
+    "nghia": "gắng sức"
+  },
+  "哀": {
+    "hv": "ai",
+    "nghia": "buồn thương"
+  },
+  "除": {
+    "hv": "trừ",
+    "nghia": "trừ bỏ, trừ tịch"
+  },
+  "胞": {
+    "hv": "bào",
+    "nghia": "bào thai, đồng bào"
+  },
+  "眄": {
+    "hv": "miện",
+    "nghia": "liếc nhìn"
+  },
+  "音": {
+    "hv": "âm",
+    "nghia": "âm thanh"
+  },
+  "祖": {
+    "hv": "tổ",
+    "nghia": "tổ tiên"
+  },
+  "垢": {
+    "hv": "cấu",
+    "nghia": "bẩn, vết bẩn"
+  },
+  "星": {
+    "hv": "tinh",
+    "nghia": "sao"
+  },
+  "洧": {
+    "hv": "vị",
+    "nghia": "sông Vị"
+  },
+  "垣": {
+    "hv": "viên",
+    "nghia": "tường thấp"
+  },
+  "兗": {
+    "hv": "duyện",
+    "nghia": "Duyện châu"
+  },
+  "胝": {
+    "hv": "chai",
+    "nghia": "chai da, sần"
+  },
+  "紈": {
+    "hv": "hoàn",
+    "nghia": "lụa trắng mịn"
+  },
+  "是": {
+    "hv": "thị",
+    "nghia": "là, đúng"
+  },
+  "茲": {
+    "hv": "tư",
+    "nghia": "này, đây"
+  },
+  "盃": {
+    "hv": "bôi",
+    "nghia": "cái chén (như 杯)"
+  },
+  "洪": {
+    "hv": "hồng",
+    "nghia": "lớn, lũ"
+  },
+  "枳": {
+    "hv": "chỉ",
+    "nghia": "cây chỉ"
+  },
+  "既": {
+    "hv": "ký",
+    "nghia": "đã, rồi"
+  },
+  "茶": {
+    "hv": "trà",
+    "nghia": "trà"
+  },
+  "革": {
+    "hv": "cách",
+    "nghia": "da, đổi"
+  },
+  "軍": {
+    "hv": "quân",
+    "nghia": "quân, lính"
+  },
+  "荀": {
+    "hv": "tuân",
+    "nghia": "cỏ tuân, họ Tuân"
+  },
+  "盈": {
+    "hv": "doanh",
+    "nghia": "đầy, dư"
+  },
+  "叛": {
+    "hv": "bạn",
+    "nghia": "phản bội"
+  },
+  "品": {
+    "hv": "phẩm",
+    "nghia": "đồ vật, phẩm chất"
+  },
+  "禹": {
+    "hv": "vũ",
+    "nghia": "vua Vũ"
+  },
+  "恬": {
+    "hv": "điềm",
+    "nghia": "yên tĩnh, điềm đạm"
+  },
+  "庭": {
+    "hv": "đình",
+    "nghia": "sân, triều đình"
+  },
+  "津": {
+    "hv": "tân",
+    "nghia": "bến, nước"
+  },
+  "拽": {
+    "hv": "duệ",
+    "nghia": "lôi kéo"
+  },
+  "胙": {
+    "hv": "tộ",
+    "nghia": "thịt tế, phúc"
+  },
+  "胎": {
+    "hv": "thai",
+    "nghia": "thai, mầm mống"
+  },
+  "室": {
+    "hv": "thất",
+    "nghia": "phòng, nhà"
+  },
+  "屍": {
+    "hv": "thi",
+    "nghia": "thây chết"
+  },
+  "秋": {
+    "hv": "thu",
+    "nghia": "mùa thu"
+  },
+  "指": {
+    "hv": "chỉ",
+    "nghia": "ngón tay, chỉ"
+  },
+  "茨": {
+    "hv": "tì",
+    "nghia": "lợp cỏ tranh"
+  },
+  "祜": {
+    "hv": "hỗ",
+    "nghia": "phúc lớn"
+  },
+  "皆": {
+    "hv": "giai",
+    "nghia": "đều, tất cả"
+  },
+  "奎": {
+    "hv": "khuê",
+    "nghia": "sao Khuê"
+  },
+  "祠": {
+    "hv": "từ",
+    "nghia": "nhà thờ, đền"
+  },
+  "徊": {
+    "hv": "hồi",
+    "nghia": "đi quanh quẩn"
+  },
+  "奏": {
+    "hv": "tấu",
+    "nghia": "tâu, tấu nhạc"
+  },
+  "咨": {
+    "hv": "tư",
+    "nghia": "hỏi han, than"
+  },
+  "查": {
+    "hv": "tra",
+    "nghia": "tra xét"
+  },
+  "祚": {
+    "hv": "tộ",
+    "nghia": "ngôi vua, phúc"
+  },
+  "風": {
+    "hv": "phong",
+    "nghia": "gió, phong cách"
+  },
+  "昧": {
+    "hv": "muội",
+    "nghia": "tối, ngu muội"
+  },
+  "郡": {
+    "hv": "quận",
+    "nghia": "quận, huyện"
+  },
+  "則": {
+    "hv": "tắc",
+    "nghia": "thì, quy tắc"
+  },
+  "荃": {
+    "hv": "thuyên",
+    "nghia": "cỏ thơm"
+  },
+  "柵": {
+    "hv": "sách",
+    "nghia": "hàng rào"
+  },
+  "帝": {
+    "hv": "đế",
+    "nghia": "vua, đế"
+  },
+  "皇": {
+    "hv": "hoàng",
+    "nghia": "hoàng đế, lớn"
+  },
+  "剄": {
+    "hv": "cảnh",
+    "nghia": "cắt cổ"
+  },
+  "甚": {
+    "hv": "thậm",
+    "nghia": "rất, lắm"
+  },
+  "要": {
+    "hv": "yếu",
+    "nghia": "cần, quan trọng"
+  },
+  "背": {
+    "hv": "bối",
+    "nghia": "lưng, phản bội"
+  },
+  "姪": {
+    "hv": "điệt",
+    "nghia": "cháu (gọi cô chú)"
+  },
+  "恤": {
+    "hv": "tuất",
+    "nghia": "thương xót, cứu giúp"
+  },
+  "削": {
+    "hv": "tước",
+    "nghia": "gọt, tước"
+  },
+  "飛": {
+    "hv": "phi",
+    "nghia": "bay"
+  },
+  "神": {
+    "hv": "thần",
+    "nghia": "thần linh, tinh thần"
+  },
+  "映": {
+    "hv": "ánh",
+    "nghia": "chiếu rọi"
+  },
+  "癸": {
+    "hv": "quý",
+    "nghia": "thứ mười thiên can"
+  },
+  "恃": {
+    "hv": "thị",
+    "nghia": "cậy, dựa vào"
+  },
+  "泉": {
+    "hv": "tuyền",
+    "nghia": "suối"
+  },
+  "茯": {
+    "hv": "phục",
+    "nghia": "phục linh"
+  },
+  "研": {
+    "hv": "nghiên",
+    "nghia": "nghiên, mài"
+  },
+  "差": {
+    "hv": "sai",
+    "nghia": "sai khác, sai sót"
+  },
+  "勁": {
+    "hv": "kính",
+    "nghia": "mạnh, cứng"
+  },
+  "修": {
+    "hv": "tu",
+    "nghia": "sửa, tu hành"
+  },
+  "矜": {
+    "hv": "căng",
+    "nghia": "tự cao, thương"
+  },
+  "衿": {
+    "hv": "khâm",
+    "nghia": "vạt áo"
+  },
+  "耇": {
+    "hv": "cẩu",
+    "nghia": "già nua"
+  },
+  "送": {
+    "hv": "tống",
+    "nghia": "đưa tiễn"
+  },
+  "荄": {
+    "hv": "cai",
+    "nghia": "rễ cỏ"
+  },
+  "舁": {
+    "hv": "dư",
+    "nghia": "khiêng"
+  },
+  "曷": {
+    "hv": "hạt",
+    "nghia": "sao, vì sao"
+  },
+  "陛": {
+    "hv": "bệ",
+    "nghia": "bệ vua, thềm"
+  },
+  "帥": {
+    "hv": "soái",
+    "nghia": "tướng soái"
+  },
+  "眉": {
+    "hv": "mi",
+    "nghia": "lông mày"
+  },
+  "面": {
+    "hv": "diện",
+    "nghia": "mặt"
+  },
+  "珍": {
+    "hv": "trân",
+    "nghia": "quý báu"
+  },
+  "洞": {
+    "hv": "động",
+    "nghia": "hang, thấu suốt"
+  },
+  "柁": {
+    "hv": "đà",
+    "nghia": "bánh lái thuyền"
+  },
+  "軌": {
+    "hv": "quỹ",
+    "nghia": "đường ray, quy tắc"
+  },
+  "怨": {
+    "hv": "oán",
+    "nghia": "oán hận"
+  },
+  "施": {
+    "hv": "thi",
+    "nghia": "thi hành, bố thí"
+  },
+  "卻": {
+    "hv": "khước",
+    "nghia": "lui, từ chối"
+  },
+  "巹": {
+    "hv": "cẩn",
+    "nghia": "rượu giao bôi"
+  },
+  "計": {
+    "hv": "kế",
+    "nghia": "tính, mưu kế"
+  },
+  "訂": {
+    "hv": "đính",
+    "nghia": "đính chính, định"
+  },
+  "穿": {
+    "hv": "xuyên",
+    "nghia": "xuyên qua, mặc"
+  },
+  "衲": {
+    "hv": "nạp",
+    "nghia": "áo nhà sư"
+  },
+  "訃": {
+    "hv": "phó",
+    "nghia": "báo tang"
+  },
+  "追": {
+    "hv": "truy",
+    "nghia": "đuổi theo, truy tìm"
+  },
+  "姦": {
+    "hv": "gian",
+    "nghia": "gian dâm, gian"
+  },
+  "厙": {
+    "hv": "xã",
+    "nghia": "địa danh"
+  },
+  "陟": {
+    "hv": "trắc",
+    "nghia": "lên, đề bạt"
+  },
+  "姻": {
+    "hv": "nhân",
+    "nghia": "hôn nhân, thông gia"
+  },
+  "祝": {
+    "hv": "chúc",
+    "nghia": "chúc, khấn"
+  },
+  "炭": {
+    "hv": "thán",
+    "nghia": "than"
+  },
+  "爰": {
+    "hv": "viên",
+    "nghia": "bèn, đổi"
+  },
+  "荒": {
+    "hv": "hoang",
+    "nghia": "hoang vu, mất mùa"
+  },
+  "畏": {
+    "hv": "uý",
+    "nghia": "sợ"
+  },
+  "孩": {
+    "hv": "hài",
+    "nghia": "trẻ nhỏ"
+  },
+  "迴": {
+    "hv": "hồi",
+    "nghia": "quay về"
+  },
+  "香": {
+    "hv": "hương",
+    "nghia": "thơm, hương"
+  },
+  "思": {
+    "hv": "tư",
+    "nghia": "nghĩ, nhớ"
+  },
+  "亭": {
+    "hv": "đình",
+    "nghia": "đình, cái đình"
+  },
+  "客": {
+    "hv": "khách",
+    "nghia": "khách"
+  },
+  "挎": {
+    "hv": "khoá",
+    "nghia": "khoác, đeo"
+  },
+  "後": {
+    "hv": "hậu",
+    "nghia": "sau"
+  },
+  "南": {
+    "hv": "nam",
+    "nghia": "phương nam"
+  },
+  "彥": {
+    "hv": "ngạn",
+    "nghia": "kẻ sĩ tài đức"
+  },
+  "柑": {
+    "hv": "cam",
+    "nghia": "quả cam"
+  },
+  "牲": {
+    "hv": "sinh",
+    "nghia": "súc vật tế"
+  },
+  "鬼": {
+    "hv": "quỷ",
+    "nghia": "ma, quỷ"
+  },
+  "厚": {
+    "hv": "hậu",
+    "nghia": "dày, hậu hĩnh"
+  },
+  "恢": {
+    "hv": "khôi",
+    "nghia": "rộng lớn, khôi phục"
+  },
+  "侵": {
+    "hv": "xâm",
+    "nghia": "xâm lấn"
+  },
+  "看": {
+    "hv": "khán",
+    "nghia": "xem, trông"
+  },
+  "洗": {
+    "hv": "tẩy",
+    "nghia": "rửa, gột"
+  },
+  "美": {
+    "hv": "mỹ",
+    "nghia": "đẹp"
+  },
+  "洶": {
+    "hv": "hung",
+    "nghia": "sóng cuộn ồ ạt"
+  },
+  "急": {
+    "hv": "cấp",
+    "nghia": "gấp, vội"
+  },
+  "拾": {
+    "hv": "thập",
+    "nghia": "nhặt, mười"
+  },
+  "俊": {
+    "hv": "tuấn",
+    "nghia": "tuấn tú, tài giỏi"
+  },
+  "勇": {
+    "hv": "dũng",
+    "nghia": "dũng cảm"
+  },
+  "保": {
+    "hv": "bảo",
+    "nghia": "giữ gìn, bảo"
+  },
+  "按": {
+    "hv": "án",
+    "nghia": "đè, theo"
+  },
+  "冒": {
+    "hv": "mạo",
+    "nghia": "đội, mạo hiểm"
+  },
+  "春": {
+    "hv": "xuân",
+    "nghia": "mùa xuân"
+  },
+  "矩": {
+    "hv": "củ",
+    "nghia": "thước vuông, quy tắc"
+  },
+  "逆": {
+    "hv": "nghịch",
+    "nghia": "ngược, nghịch"
+  },
+  "哉": {
+    "hv": "tai",
+    "nghia": "thay (cảm thán)"
+  },
+  "罘": {
+    "hv": "phu",
+    "nghia": "lưới bắt thú"
+  },
+  "柳": {
+    "hv": "liễu",
+    "nghia": "cây liễu"
+  },
+  "恰": {
+    "hv": "kháp",
+    "nghia": "vừa, đúng lúc"
+  },
+  "耐": {
+    "hv": "nại",
+    "nghia": "chịu đựng, kiên nhẫn"
+  },
+  "虹": {
+    "hv": "hồng",
+    "nghia": "cầu vồng"
+  },
+  "柰": {
+    "hv": "nại",
+    "nghia": "trái nại, làm sao"
+  }
+};
