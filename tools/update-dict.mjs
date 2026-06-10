@@ -12,7 +12,8 @@
 //   3. Prompt you for the Hán Việt reading + nghĩa of each new character.
 //   4. Write dictionary.json  — always valid JSON (JSON.stringify can't emit a trailing comma).
 //   5. Regenerate js/dictionary-data.js from dictionary.json.
-//   6. Bump the ?v= cache-buster on the <script> tag in index.html so browsers refetch.
+//   6. Bump a ?v=<contenthash> cache-buster on every js/*.js <script> tag in
+//      index.html so browsers refetch whenever any JS file (or the dictionary) changes.
 //
 // Usage:
 //   node tools/update-dict.mjs           interactive — prompt for each new character
@@ -94,16 +95,28 @@ function writeJs(obj) {
   write(JS_PATH, header + 'window.HAN_VIET_DICT = ' + JSON.stringify(obj, null, 2).replace(/\n/g, EOL) + ';' + EOL);
 }
 
-function bumpCacheBuster() {
-  const hash = crypto.createHash('sha256').update(read(JS_PATH)).digest('hex').slice(0, 8);
-  const re = /(src=")(js\/dictionary-data\.js)(\?v=[a-f0-9]+)?(")/;
+// Version every js/*.js <script> tag in index.html with a hash of that file's
+// own content, so editing any JS file (not just the dictionary) forces a refetch.
+const SCRIPTS = ['dictionary-data.js', 'storage.js', 'tests.js', 'app.js'];
+function bumpCacheBusters() {
+  const jsDir = path.dirname(JS_PATH);
   let html = read(HTML_PATH);
-  if (!re.test(html)) {
-    console.warn('⚠ could not find the dictionary-data.js <script> tag in index.html — skipping cache-bust');
-    return null;
+  const bumped = [];
+  for (const name of SCRIPTS) {
+    const file = path.join(jsDir, name);
+    if (!fs.existsSync(file)) continue; // tolerate missing files (e.g. test fixtures)
+    const hash = crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex').slice(0, 8);
+    const re = new RegExp(`(src=")(js/${name.replace(/\./g, '\\.')})(\\?v=[a-f0-9]+)?(")`);
+    if (!re.test(html)) continue;
+    html = html.replace(re, `$1$2?v=${hash}$4`);
+    bumped.push(`${name} → ?v=${hash}`);
   }
-  write(HTML_PATH, html.replace(re, `$1$2?v=${hash}$4`));
-  return hash;
+  if (!bumped.length) {
+    console.warn('⚠ no js/*.js <script> tags found in index.html — skipping cache-bust');
+    return [];
+  }
+  write(HTML_PATH, html);
+  return bumped;
 }
 
 // --- run ---
@@ -120,14 +133,17 @@ function bumpCacheBuster() {
 
   writeJson(dict);
   writeJs(dict);
-  const hash = bumpCacheBuster();
+  const bumped = bumpCacheBusters();
 
   JSON.parse(read(JSON_PATH)); // sanity: re-parse what we just wrote
 
   const total = Object.keys(dict).length;
   console.log(`\n✓ ${path.relative(ROOT, JSON_PATH)}   valid (${total} entries)`);
   console.log(`✓ ${path.relative(ROOT, JS_PATH)}  regenerated (${total} entries)`);
-  if (hash) console.log(`✓ ${path.relative(ROOT, HTML_PATH)}             cache version → ?v=${hash}`);
+  if (bumped.length) {
+    console.log(`✓ ${path.relative(ROOT, HTML_PATH)} cache versions bumped:`);
+    for (const b of bumped) console.log(`    ${b}`);
+  }
   console.log('\nNext:  git add -A && git commit -m "Add new characters" && git push');
 })().catch((err) => {
   console.error('\n✗ ' + err.message);

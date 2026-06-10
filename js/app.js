@@ -51,6 +51,7 @@
 
   let currentFilter = 'all';
   let currentSearch = '';
+  let showAllChars = false;
 
   function renderCharGrid() {
     const grid = document.getElementById('charGrid');
@@ -80,8 +81,8 @@
       return;
     }
 
-    // Hiển thị tối đa 200 chữ một lúc để giữ hiệu năng
-    const limit = 200;
+    // Mặc định hiển thị 200 chữ để giữ hiệu năng; nút "Hiển thị tất cả" bỏ giới hạn
+    const limit = showAllChars ? filtered.length : 200;
     const visible = filtered.slice(0, limit);
 
     const fragment = document.createDocumentFragment();
@@ -105,11 +106,19 @@
     });
     grid.appendChild(fragment);
 
-    if (filtered.length > limit) {
-      const more = document.createElement('div');
-      more.style.cssText = 'grid-column:1/-1;text-align:center;padding:24px;color:var(--ink-mute);font-family:var(--font-mono);font-size:12px;';
-      more.textContent = `Hiển thị ${limit} / ${filtered.length} chữ. Dùng ô tìm kiếm hoặc bộ lọc để thu hẹp.`;
-      grid.appendChild(more);
+    if (filtered.length > visible.length) {
+      const footer = document.createElement('div');
+      footer.style.cssText = 'grid-column:1/-1;text-align:center;padding:24px;color:var(--ink-mute);font-family:var(--font-mono);font-size:12px;';
+      footer.innerHTML = `<div style="margin-bottom:12px;">Đang hiển thị ${visible.length} / ${filtered.length} chữ.</div>`;
+      const showAllBtn = document.createElement('button');
+      showAllBtn.className = 'btn btn-secondary';
+      showAllBtn.textContent = `Hiển thị tất cả ${filtered.length} chữ`;
+      showAllBtn.addEventListener('click', () => {
+        showAllChars = true;
+        renderCharGrid();
+      });
+      footer.appendChild(showAllBtn);
+      grid.appendChild(footer);
     }
   }
 
@@ -403,11 +412,13 @@
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
         currentSearch = searchInput.value;
+        showAllChars = false;
         renderCharGrid();
       }, 200);
     });
     filterSelect.addEventListener('change', () => {
       currentFilter = filterSelect.value;
+      showAllChars = false;
       renderCharGrid();
     });
 

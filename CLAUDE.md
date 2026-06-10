@@ -48,12 +48,12 @@ Dictionary entries always have two fields: `hv` (Hán Việt reading) and `nghia
 2. Run `node tools/update-dict.mjs`. It finds characters present in the list but missing from `dictionary.json`, prompts for each one's `hv` (Hán Việt) + `nghia`, then:
    - writes `data/dictionary.json` via `JSON.stringify` (always valid — no trailing comma possible),
    - regenerates `js/dictionary-data.js` from it,
-   - bumps a `?v=<contenthash>` cache-buster on the `dictionary-data.js` `<script>` tag in `index.html`.
+   - bumps a `?v=<contenthash>` cache-buster on **every** `js/*.js` `<script>` tag in `index.html` (each tag hashed from its own file), so editing any JS file — not just the dictionary — forces a refetch.
 3. `git add -A && git commit && git push`.
 
 `node tools/update-dict.mjs --regen` does steps 2's writes **without prompting** — use it to heal drift or after any manual `dictionary.json` change; it re-stringifies (fixing formatting/dupes) and regenerates. The script is idempotent: a `--regen` with no content change produces zero byte diffs. Path overrides `HANTU_LIST/JSON/JS/HTML` exist for testing.
 
-**Deployment / "why didn't my change show up":** the app is static (GitHub Pages). A push redeploys, but browsers cache `js/dictionary-data.js`; the `?v=` hash (maintained by the script) forces a refetch whenever the dictionary content changes. If you ever edit `dictionary-data.js` outside the script, the hash won't update and users may keep a stale copy.
+**Deployment / "why didn't my change show up":** the app is static (GitHub Pages). A push redeploys, but browsers cache the JS files; the per-file `?v=` hashes (maintained by the script) force a refetch whenever any `js/*.js` file changes. After editing **any** JS file or the dictionary, run `node tools/update-dict.mjs --regen` before committing so the hashes update — otherwise users may keep a stale copy. The `SCRIPTS` array in the script lists which tags it versions; add new JS files there.
 
 ### Status classification & study ordering (the core learning logic)
 
